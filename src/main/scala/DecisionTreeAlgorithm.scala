@@ -156,7 +156,7 @@ class DecisionTreeAlgorithm(val ap: AlgorithmParams)
     }
     import NodeJsonProtocol._
 
-    val writer = new PrintWriter(new File("../data/decisionTree.json" ))
+    val writer = new PrintWriter(new File("data/decisionTree.json" ))
     writer.write(model.topNode.toJson.toString)
     writer.close()
     model

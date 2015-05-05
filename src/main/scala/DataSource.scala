@@ -60,18 +60,14 @@ class DataSource(val dsp: DataSourceParams)
     val textFile = sc.textFile(filename)
     val metadataFile = sc.textFile(metadata)
 
-    // the last row contains the number of categories with "ca" prepend if the
+    // metadata contains the number of categories with "ca" prepend if the
     // feature is categorical and "co" if the the feature is continuous
     // for example: target,ca13,co,ca3,co,co
     val categoricalFeaturesInfo = metadataFile.first.split(",").drop(1).zipWithIndex
       .filter{case (value, index) => value != "co"}
       .map{case (value, index) => index -> value.drop(2).toInt }.toMap
 
-    // we use until 2014-03-15T12:00:00.000Z for training (so there is pollution day)
-    val numSamples = scala.math.floor(1404403).toInt
     val labeledPoints = textFile
-      .filter(line => !line.contains("co"))
-      .filter(line => !line.contains("ca"))
       .map { line =>
         val linesplit = line.split(",")
         val targetStr = linesplit.head
@@ -80,8 +76,7 @@ class DataSource(val dsp: DataSourceParams)
         LabeledPoint(targetStr.toDouble, Vectors.dense(features))
       }.cache()
 
-    val trainingPoints = sc.parallelize(labeledPoints.take(numSamples)).randomSplit(Array(1,0))(0)
-    val testingPoints = labeledPoints.subtract(trainingPoints)
+    val Array(trainingPoints, testingPoints) = labeledPoints.randomSplit(Array(0.8, 0.2))
 
     println(s"Read ${labeledPoints.count} labeled Points from file.")
     println(s"Read ${trainingPoints.count} for training.")
@@ -95,7 +90,7 @@ class DataSource(val dsp: DataSourceParams)
   override
   def readTraining(sc: SparkContext): TrainingData = {
 
-    readFromFile(sc, "../data/learning.csv", "../data/learning_metadata.csv")
+    readFromFile(sc, "data/learning.csv", "data/learning_metadata.csv")
 
   }
 
@@ -103,7 +98,7 @@ class DataSource(val dsp: DataSourceParams)
   def readEval(sc: SparkContext): Seq[(TrainingData, EmptyEvaluationInfo, RDD[(Query, ActualResult)])] = {
     require(!dsp.evalK.isEmpty, "DataSourceParams.evalK must not be None")
 
-    val trainingData = readFromFile(sc, "../data/learning.csv", "../data/learning_metadata.csv")
+    val trainingData = readFromFile(sc, "data/learning.csv", "data/learning_metadata.csv")
 
     // K-fold splitting
     val evalK = dsp.evalK.get
