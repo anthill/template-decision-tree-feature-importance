@@ -1,0 +1,20 @@
+{
+  "id": "default",
+  "description": "Default settings",
+  "engineFactory": "org.template.regression.RegressionTreeEngine",
+  "datasource": {
+    "params": {
+      "appId": 1
+    }
+  },
+  "algorithms": [
+    {
+      "name": "regressiontree",
+      "params": {
+        "impurity": "variance",
+        "maxDepth": 15,
+        "maxBins": 500
+      }
+    }
+  ]
+}
