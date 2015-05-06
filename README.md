@@ -73,6 +73,7 @@ Take note of the Access Key and App ID. You will need the Access Key to refer to
 
 ## Collecting Data
 
+The description of the dataset gives inforamtion about the features.
 
     1. CRIM      per capita crime rate by town
     2. ZN        proportion of residential land zoned for lots over 
@@ -91,9 +92,21 @@ Take note of the Access Key and App ID. You will need the Access Key to refer to
                  by town
     13. LSTAT    % lower status of the population
 
+Most of the features ar continuous execpt CHAS and RAD. We can specify this in `data/learning_metadata.csv` which contains:
+
+```
 co,co,co,ca2,co,co,co,co,ca25,co,co,co,co
+```
 
+We've implemented a file reader in `DataSource` enabling you to lead big chunks of data at the initialisation of the algorithm.
+You can do the learning with:
 
+```
+pio build --varbose
+pio train
+```
+
+ 
 Next, let's collect some training data. By default, the Classification Engine Template reads 4 properties of a user record: attr0, attr1, attr2 and plan.
 
 You can send these data to PredictionIO Event Server in real-time easily by making a HTTP request or through the EventClient of an SDK.

@@ -25,36 +25,36 @@ class DataSource(val dsp: DataSourceParams)
 
   @transient lazy val logger = Logger[this.type]
 
-  // def readFromDb(sc: SparkContext): TrainingData = {
-  //   val eventsDb = Storage.getPEvents()
-  //   val labeledPoints: RDD[LabeledPoint] = eventsDb.aggregateProperties(
-  //     appId = dsp.appId,
-  //     entityType = "row",
-  //     // only keep entities with these required properties defined
-  //     required = Some(List("target", "attr0", "attr1", "attr2", "attr3", "attr4")))(sc)
-  //     // aggregateProperties() returns RDD pair of
-  //     // entity ID and its aggregated properties
-  //     .map { case (entityId, properties) =>
-  //       try {
-  //         LabeledPoint(properties.get[Double]("target"),
-  //           Vectors.dense(Array(
-  //             properties.get[Double]("attr0"),
-  //             properties.get[Double]("attr1"),
-  //             properties.get[Double]("attr2"),
-  //             properties.get[Double]("attr3"),
-  //             properties.get[Double]("attr4")
-  //           ))
-  //         )
-  //       } catch {
-  //         case e: Exception => {
-  //           logger.error(s"Failed to get properties ${properties} of" +
-  //             s" ${entityId}. Exception: ${e}.")
-  //           throw e
-  //         }
-  //       }
-  //     }.cache()
-  //     new TrainingData(labeledPoints, Map[Int, Int]())
-  // }
+  def readFromDb(sc: SparkContext): TrainingData = {
+    val eventsDb = Storage.getPEvents()
+    val labeledPoints: RDD[LabeledPoint] = eventsDb.aggregateProperties(
+      appId = dsp.appId,
+      entityType = "row",
+      // only keep entities with these required properties defined
+      required = Some(List("target", "attr0", "attr1", "attr2", "attr3", "attr4")))(sc)
+      // aggregateProperties() returns RDD pair of
+      // entity ID and its aggregated properties
+      .map { case (entityId, properties) =>
+        try {
+          LabeledPoint(properties.get[Double]("target"),
+            Vectors.dense(Array(
+              properties.get[Double]("attr0"),
+              properties.get[Double]("attr1"),
+              properties.get[Double]("attr2"),
+              properties.get[Double]("attr3"),
+              properties.get[Double]("attr4")
+            ))
+          )
+        } catch {
+          case e: Exception => {
+            logger.error(s"Failed to get properties ${properties} of" +
+              s" ${entityId}. Exception: ${e}.")
+            throw e
+          }
+        }
+      }.cache()
+      new TrainingData(labeledPoints, Map[Int, Int]())
+  }
 
   def readFromFile(sc: SparkContext, filename: String, metadata: String): TrainingData = {
     val textFile = sc.textFile(filename)
