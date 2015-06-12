@@ -16,7 +16,7 @@ The best way to get started with predictionio is by using docker.
 #### From our image
 
 ```
-docker run -ti -p 9000:9000 -v /Users/vallette/ANTS/template-decision-tree-feature-importance:/MyRegression ants/predictionio:v0.9.1
+docker run -ti --dns=8.8.8.8 -p 9000:9000 -v /pathTo/template-decision-tree-feature-importance:/MyRegression ants/predictionio:v0.9.1 bash
 ```
 
 #### Building the docker image
@@ -37,16 +37,14 @@ runsvdir-start&
 
 to start all the services.
 
-You can check the status by running:
+You can check the status by running (if you have an error retry, it takes time to start all the services):
 ```
 pio status
 ```
 
 ## Download Template
-Clone the current repository by executing the following command in the directory where you want the code to reside:
     
 ```
-git clone https://github.com/anthill/template-decision-tree-feature-importance.git MyRegression
 cd MyRegression
 ```
 
@@ -54,9 +52,8 @@ cd MyRegression
 Let's assume you want to use this engine in an application named "MyApp1". You will need to collect some training data for machine learning modeling. You can generate an App ID and Access Key that represent "MyApp1" on the Event Server easily:
 ```
 pio app new MyApp1
-
 ```
-You should find the following in the console output:
+If the app is no yet created, you should find the following in the console output:
 ```
 ...
 [INFO] [App$] Initialized Event Store for this app ID: 1.
@@ -66,14 +63,12 @@ You should find the following in the console output:
 [INFO] [App$] Access Key: ZON0FP6gdLeXxg1g7O1E9TPXIOxQMIngIr0LWQUC5Tv0utyyGwvs1AmG6DyDchLO
 ```
 
-Take note of the Access Key and App ID. You will need the Access Key to refer to "MyApp1" when you collect data. At the same time, you will use App ID to refer to "MyApp1" in engine code.
-
-`pio app list` will return a list of names and IDs of apps created in the Event Server.
+Take note of the Access Key and App ID. You will need the Access Key to refer to "MyApp1" when you collect data. At the same time, you will use App ID to refer to "MyApp1" in engine code. If the app exists already use `pio app list` to return a list of names and IDs of apps created in the Event Server.
 
 
 ## Collecting Data
 
-The description of the dataset gives inforamtion about the features.
+Here are the features of the boston housing dataset:
 
     1. CRIM      per capita crime rate by town
     2. ZN        proportion of residential land zoned for lots over 
@@ -92,146 +87,56 @@ The description of the dataset gives inforamtion about the features.
                  by town
     13. LSTAT    % lower status of the population
 
-Most of the features ar continuous execpt CHAS and RAD. We can specify this in `data/learning_metadata.csv` which contains:
+Most of the features are continuous execpt CHAS and RAD. We can specify this in `data/learning_metadata.csv` which contains:
 
 ```
 co,co,co,ca2,co,co,co,co,ca25,co,co,co,co
 ```
 
-We've implemented a file reader in `DataSource` enabling you to lead big chunks of data at the initialisation of the algorithm.
+**We've implemented a `readFromDbAndFile` in `DataSource` enabling you to load big chunks of data from a file**.
+The data contained in `data/learning.csv` will be read directly from the file during the traing while `data/learning_events.csv` can be loaded as events using:
+
+```
+$ python data/import_eventserver.py --access_key ZON0FP6gdLeXxg1g7O1E9TPXIOxQMIngIr0LWQUC5Tv0utyyGwvs1AmG6DyDchLO
+
+7 events are imported.
+```
+
 You can do the learning with:
 
 ```
-pio build --varbose
+pio build --verbose
 pio train
 ```
 
+This what you should see:
+
+```
+Read 0 labeled Points from db.
+Read 499 labeled Points from file.
+Read 385 for training.
+Read 114 for testing.
+
+Pearson correlation:
+0.888772406471315
+0 --> 0.6161053850251208
+7 --> 0.3906382007374483
+2 --> 0.1318489505497093
+4 --> 0.08992088305559369
+1 --> 0.0856921742934753
+6 --> 0.08121969448088352
+11  --> 0.06503553234480065
+9 --> 0.019383820677064782
+3 --> 0.0
+8 --> -0.009703859055510834
+10  --> -0.1209922163655196
+5 --> -0.16274805206199028
+12  --> -0.18640051368107574
+```
+
+These are the pearson coefficient and the feature importances classified by order (one should find a way to give the names directly, but we'll do that soon).
  
-Next, let's collect some training data. By default, the Classification Engine Template reads 4 properties of a user record: attr0, attr1, attr2 and plan.
+After the learning you can use you prediction service as usual. You can **visualize the decision tree** by reading the file `data/decisionTree.json`.
+Checkout the `/viz` directory for the code.
 
-You can send these data to PredictionIO Event Server in real-time easily by making a HTTP request or through the EventClient of an SDK.
-
-Although you can integrate your app with PredictionIO and collect training data in real-time, we are going to import a sample dataset with the provided scripts for demonstration purpose.
-
-Execute the following command in the Engine directory(MyClassification) to get the sample dataset from MLlib repo:
-```
-curl https://raw.githubusercontent.com/apache/spark/master/data/mllib/sample_naive_bayes_data.txt --create-dirs -o data/sample_decision_trees.txt
-
-```
-
-A Python import script import_eventserver.py is provided in the template to import the data to Event Server using Python SDK.
-Replace the value of access_key parameter by your Access Key and run:
-```python
-$ cd MyRecomendation
-$ python data/import_eventserver.py --access_key 3mZWDzci2D5YsqAnqNnXH9SB6Rg3dsTBs8iHkK6X2i54IQsIZI1eEeQQyMfs7b3F
-```
-You should see the following output:
-```
-Importing data...
-6 events are imported.
-```
-This python script converts the data file to proper events formats as needed by the event server.
-Now the training data is stored as events inside the Event Store.
-
-## Deploy the Engine as a Service
-Now you can build, train, and deploy the engine. First, make sure you are under the MyClassification directory.
-
-### Input Query
-- array of features values ( 3 features)
-```
-{"features": [0, 2, 0]}
-```
-
-### Output Predicted Result
-- the predicted label 
-```
-{"label":0.0}
-```
-
-### Engine.json
-
-Under the directory, you should find an engine.json file; this is where you specify parameters for the engine.
-Make sure the appId defined in the file match your App ID. (This links the template engine with the App)
-
-Parameters for the Decision Tree model are to be set here. 
-
-numClasses: Number of classes in the dataset
-
-maxDepth: Max depth of the tree generated
-
-maxBins: Max number of Bins
-
-```
-{
-  "id": "default",
-  "description": "Default settings",
-  "engineFactory": "org.template.classification.ClassificationEngine",
-  "datasource": {
-    "params": {
-      "appId": 1
-    }
-  },
-  "algorithms": [
-    {
-      "name": "decisiontree",
-      "params": {
-        
-        "numClasses": 3,
-        "maxDepth": 5,
-        "maxBins": 100      
-      }
-    }
-  ]
-}
-```
-### Build
-
-Start with building your MyClassification engine.
-```
-$ pio build
-```
-This command should take few minutes for the first time; all subsequent builds should be less than a minute. You can also run it with --verbose to see all log messages.
-
-Upon successful build, you should see a console message similar to the following.
-```
-[INFO] [Console$] Your engine is ready for training.
-```
-
-### Training the Predictive Model
-
-Train your engine.
-
-```
-$ pio train
-```
-When your engine is trained successfully, you should see a console message similar to the following.
-
-```
-[INFO] [CoreWorkflow$] Training completed successfully.
-```
-### Deploying the Engine
-
-Now your engine is ready to deploy.
-
-```
-$ pio deploy
-```
-This will deploy an engine that binds to http://localhost:8000. You can visit that page in your web browser to check its status.
-
-## Use the Engine
-
-Now, You can try to retrieve predicted results. For example, to predict the label (i.e. plan in this case) of a user with attr0=2, attr1=0 and attr2=0, you send this JSON { "features": [2, 0, 0] } to the deployed engine and it will return a JSON of the predicted plan. Simply send a query by making a HTTP request or through the EngineClient of an SDK:
-```python
-import predictionio
-engine_client = predictionio.EngineClient(url="http://localhost:8000")
-print engine_client.send_query({"features": [2, 0, 0]})
-```
-The following is sample JSON response:
-
-```
-{"label":0.0}
-```
-
-The sample quesry can be found in **test.py**
-
-
+![decision tree json](viz/tree.png)
