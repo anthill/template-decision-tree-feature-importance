@@ -1,0 +1,3823 @@
+{
+  "feature": "12",
+  "type": "Continuous",
+  "ruleCategorical": [],
+  "ruleRegression": 7.85,
+  "impurity": 77.85726726260701,
+  "trueNode": {
+    "feature": "5",
+    "type": "Continuous",
+    "ruleCategorical": [],
+    "ruleRegression": 6.939,
+    "impurity": 77.54718034026484,
+    "trueNode": {
+      "feature": "7",
+      "type": "Continuous",
+      "ruleCategorical": [],
+      "ruleRegression": 1.3567,
+      "impurity": 27.718861337036365,
+      "trueNode": {
+        "leafValue": 50.0,
+        "impurity": 0.0
+      },
+      "falseNode": {
+        "feature": "5",
+        "type": "Continuous",
+        "ruleCategorical": [],
+        "ruleRegression": 6.537999999999999,
+        "impurity": 11.731674018063421,
+        "trueNode": {
+          "feature": "8",
+          "type": "Categorical",
+          "ruleCategorical": [
+            1.0,
+            4.0,
+            8.0,
+            6.0,
+            5.0
+          ],
+          "ruleRegression": -1.7976931348623157E+308,
+          "impurity": 3.304974999999831,
+          "trueNode": {
+            "feature": "12",
+            "type": "Continuous",
+            "ruleCategorical": [],
+            "ruleRegression": 7.6,
+            "impurity": 2.2102333333334174,
+            "trueNode": {
+              "feature": "10",
+              "type": "Continuous",
+              "ruleCategorical": [],
+              "ruleRegression": 21.0,
+              "impurity": 0.9487517146777397,
+              "trueNode": {
+                "feature": "7",
+                "type": "Continuous",
+                "ruleCategorical": [],
+                "ruleRegression": 6.1899,
+                "impurity": 0.7004289940827081,
+                "trueNode": {
+                  "feature": "5",
+                  "type": "Continuous",
+                  "ruleCategorical": [],
+                  "ruleRegression": 6.167000000000001,
+                  "impurity": 0.6966089965398543,
+                  "trueNode": {
+                    "feature": "10",
+                    "type": "Continuous",
+                    "ruleCategorical": [],
+                    "ruleRegression": 14.7,
+                    "impurity": 0.510399999999845,
+                    "trueNode": {
+                      "leafValue": 24.3,
+                      "impurity": 0.0
+                    },
+                    "falseNode": {
+                      "feature": "7",
+                      "type": "Continuous",
+                      "ruleCategorical": [],
+                      "ruleRegression": 2.6403,
+                      "impurity": 0.1418749999999136,
+                      "trueNode": {
+                        "leafValue": 22.1,
+                        "impurity": 0.0
+                      },
+                      "falseNode": {
+                        "feature": "0",
+                        "type": "Continuous",
+                        "ruleCategorical": [],
+                        "ruleRegression": 0.09164,
+                        "impurity": 0.015555555555389825,
+                        "trueNode": {
+                          "feature": "0",
+                          "type": "Continuous",
+                          "ruleCategorical": [],
+                          "ruleRegression": 0.03551,
+                          "impurity": 0.002499999999940883,
+                          "trueNode": {
+                            "leafValue": 22.9,
+                            "impurity": 0.0
+                          },
+                          "falseNode": {
+                            "leafValue": 22.800000000000004,
+                            "impurity": -1.0
+                          }
+                        },
+                        "falseNode": {
+                          "leafValue": 23.10000000000001,
+                          "impurity": -1.0
+                        }
+                      }
+                    }
+                  },
+                  "falseNode": {
+                    "feature": "12",
+                    "type": "Continuous",
+                    "ruleCategorical": [],
+                    "ruleRegression": 6.78,
+                    "impurity": 0.5566666666664636,
+                    "trueNode": {
+                      "feature": "6",
+                      "type": "Continuous",
+                      "ruleCategorical": [],
+                      "ruleRegression": 28.9,
+                      "impurity": 0.37500000000034106,
+                      "trueNode": {
+                        "feature": "6",
+                        "type": "Continuous",
+                        "ruleCategorical": [],
+                        "ruleRegression": 14.7,
+                        "impurity": 0.29359999999996944,
+                        "trueNode": {
+                          "feature": "0",
+                          "type": "Continuous",
+                          "ruleCategorical": [],
+                          "ruleRegression": 0.08826,
+                          "impurity": 0.046666666666624224,
+                          "trueNode": {
+                            "feature": "2",
+                            "type": "Continuous",
+                            "ruleCategorical": [],
+                            "ruleRegression": 10.81,
+                            "impurity": 0.0025000000000545697,
+                            "trueNode": {
+                              "leafValue": 24.2,
+                              "impurity": 0.0
+                            },
+                            "falseNode": {
+                              "leafValue": 24.099999999999998,
+                              "impurity": -1.0
+                            }
+                          },
+                          "falseNode": {
+                            "leafValue": 24.60000000000001,
+                            "impurity": -1.0
+                          }
+                        },
+                        "falseNode": {
+                          "feature": "1",
+                          "type": "Continuous",
+                          "ruleCategorical": [],
+                          "ruleRegression": 0.0,
+                          "impurity": 0.12249999999994543,
+                          "trueNode": {
+                            "leafValue": 23.0,
+                            "impurity": 0.0
+                          },
+                          "falseNode": {
+                            "leafValue": 23.700000000000003,
+                            "impurity": -1.0
+                          }
+                        }
+                      },
+                      "falseNode": {
+                        "feature": "11",
+                        "type": "Continuous",
+                        "ruleCategorical": [],
+                        "ruleRegression": 395.6,
+                        "impurity": 0.026666666666718204,
+                        "trueNode": {
+                          "leafValue": 24.6,
+                          "impurity": 0.0
+                        },
+                        "falseNode": {
+                          "feature": "0",
+                          "type": "Continuous",
+                          "ruleCategorical": [],
+                          "ruleRegression": 0.03659,
+                          "impurity": 0.009999999999877218,
+                          "trueNode": {
+                            "leafValue": 24.8,
+                            "impurity": 0.0
+                          },
+                          "falseNode": {
+                            "leafValue": 24.999999999999996,
+                            "impurity": -1.0
+                          }
+                        }
+                      }
+                    },
+                    "falseNode": {
+                      "feature": "5",
+                      "type": "Continuous",
+                      "ruleCategorical": [],
+                      "ruleRegression": 6.376,
+                      "impurity": 0.18499999999971806,
+                      "trueNode": {
+                        "feature": "7",
+                        "type": "Continuous",
+                        "ruleCategorical": [],
+                        "ruleRegression": 4.5404,
+                        "impurity": 0.0625,
+                        "trueNode": {
+                          "leafValue": 23.1,
+                          "impurity": 0.0
+                        },
+                        "falseNode": {
+                          "leafValue": 22.6,
+                          "impurity": -1.0
+                        }
+                      },
+                      "falseNode": {
+                        "feature": "0",
+                        "type": "Continuous",
+                        "ruleCategorical": [],
+                        "ruleRegression": 0.1676,
+                        "impurity": 0.06250000000022737,
+                        "trueNode": {
+                          "leafValue": 23.8,
+                          "impurity": 0.0
+                        },
+                        "falseNode": {
+                          "leafValue": 23.3,
+                          "impurity": -1.0
+                        }
+                      }
+                    }
+                  }
+                },
+                "falseNode": {
+                  "feature": "6",
+                  "type": "Continuous",
+                  "ruleCategorical": [],
+                  "ruleRegression": 29.2,
+                  "impurity": 0.2980246913585789,
+                  "trueNode": {
+                    "feature": "10",
+                    "type": "Continuous",
+                    "ruleCategorical": [],
+                    "ruleRegression": 14.8,
+                    "impurity": 0.16959999999990033,
+                    "trueNode": {
+                      "leafValue": 22.5,
+                      "impurity": 0.0
+                    },
+                    "falseNode": {
+                      "feature": "4",
+                      "type": "Continuous",
+                      "ruleCategorical": [],
+                      "ruleRegression": 0.428,
+                      "impurity": 0.049999999999954525,
+                      "trueNode": {
+                        "feature": "0",
+                        "type": "Continuous",
+                        "ruleCategorical": [],
+                        "ruleRegression": 0.03584,
+                        "impurity": 0.009999999999990905,
+                        "trueNode": {
+                          "leafValue": 23.5,
+                          "impurity": 0.0
+                        },
+                        "falseNode": {
+                          "leafValue": 23.700000000000003,
+                          "impurity": -1.0
+                        }
+                      },
+                      "falseNode": {
+                        "feature": "0",
+                        "type": "Continuous",
+                        "ruleCategorical": [],
+                        "ruleRegression": 0.0187,
+                        "impurity": 0.009999999999877218,
+                        "trueNode": {
+                          "leafValue": 23.1,
+                          "impurity": 0.0
+                        },
+                        "falseNode": {
+                          "leafValue": 23.300000000000004,
+                          "impurity": -1.0
+                        }
+                      }
+                    }
+                  },
+                  "falseNode": {
+                    "feature": "2",
+                    "type": "Continuous",
+                    "ruleCategorical": [],
+                    "ruleRegression": 1.25,
+                    "impurity": 0.08500000000003638,
+                    "trueNode": {
+                      "leafValue": 22.9,
+                      "impurity": 0.0
+                    },
+                    "falseNode": {
+                      "feature": "0",
+                      "type": "Continuous",
+                      "ruleCategorical": [],
+                      "ruleRegression": 0.0459,
+                      "impurity": 0.002222222222295992,
+                      "trueNode": {
+                        "leafValue": 22.3,
+                        "impurity": 0.0
+                      },
+                      "falseNode": {
+                        "leafValue": 22.200000000000003,
+                        "impurity": -1.0
+                      }
+                    }
+                  }
+                }
+              },
+              "falseNode": {
+                "leafValue": 20.600000000000023,
+                "impurity": -1.0
+              }
+            },
+            "falseNode": {
+              "feature": "0",
+              "type": "Continuous",
+              "ruleCategorical": [],
+              "ruleRegression": 0.07244,
+              "impurity": 0.5422222222230175,
+              "trueNode": {
+                "feature": "0",
+                "type": "Continuous",
+                "ruleCategorical": [],
+                "ruleRegression": 0.03466,
+                "impurity": 0.15999999999996817,
+                "trueNode": {
+                  "leafValue": 19.4,
+                  "impurity": 0.0
+                },
+                "falseNode": {
+                  "leafValue": 18.6,
+                  "impurity": -1.0
+                }
+              },
+              "falseNode": {
+                "leafValue": 20.4,
+                "impurity": -1.0
+              }
+            }
+          },
+          "falseNode": {
+            "feature": "9",
+            "type": "Continuous",
+            "ruleCategorical": [],
+            "ruleRegression": 222.0,
+            "impurity": 2.0505000000002838,
+            "trueNode": {
+              "leafValue": 28.7,
+              "impurity": 0.0
+            },
+            "falseNode": {
+              "feature": "5",
+              "type": "Continuous",
+              "ruleCategorical": [],
+              "ruleRegression": 3.5610000000000004,
+              "impurity": 0.8928395061728023,
+              "trueNode": {
+                "leafValue": 27.5,
+                "impurity": 0.0
+              },
+              "falseNode": {
+                "feature": "0",
+                "type": "Continuous",
+                "ruleCategorical": [],
+                "ruleRegression": 0.1403,
+                "impurity": 0.10984374999986812,
+                "trueNode": {
+                  "feature": "1",
+                  "type": "Continuous",
+                  "ruleCategorical": [],
+                  "ruleRegression": 82.5,
+                  "impurity": 0.04500000000007276,
+                  "trueNode": {
+                    "feature": "0",
+                    "type": "Continuous",
+                    "ruleCategorical": [],
+                    "ruleRegression": 0.03445,
+                    "impurity": 0.019999999999830226,
+                    "trueNode": {
+                      "leafValue": 24.1,
+                      "impurity": 0.0
+                    },
+                    "falseNode": {
+                      "leafValue": 24.400000000000002,
+                      "impurity": -1.0
+                    }
+                  },
+                  "falseNode": {
+                    "leafValue": 24.700000000000003,
+                    "impurity": 0.0
+                  }
+                },
+                "falseNode": {
+                  "feature": "2",
+                  "type": "Continuous",
+                  "ruleCategorical": [],
+                  "ruleRegression": 6.91,
+                  "impurity": 0.03687499999978172,
+                  "trueNode": {
+                    "feature": "0",
+                    "type": "Continuous",
+                    "ruleCategorical": [],
+                    "ruleRegression": 0.15936,
+                    "impurity": 0.0025000000000545697,
+                    "trueNode": {
+                      "leafValue": 24.7,
+                      "impurity": 0.0
+                    },
+                    "falseNode": {
+                      "leafValue": 24.8,
+                      "impurity": -1.0
+                    }
+                  },
+                  "falseNode": {
+                    "feature": "0",
+                    "type": "Continuous",
+                    "ruleCategorical": [],
+                    "ruleRegression": 0.16211,
+                    "impurity": 0.009999999999877218,
+                    "trueNode": {
+                      "leafValue": 25.2,
+                      "impurity": 0.0
+                    },
+                    "falseNode": {
+                      "leafValue": 25.000000000000004,
+                      "impurity": -1.0
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
+        "falseNode": {
+          "feature": "10",
+          "type": "Continuous",
+          "ruleCategorical": [],
+          "ruleRegression": 18.3,
+          "impurity": 9.14936979786003,
+          "trueNode": {
+            "feature": "0",
+            "type": "Continuous",
+            "ruleCategorical": [],
+            "ruleRegression": 0.02543,
+            "impurity": 7.851635802469294,
+            "trueNode": {
+              "feature": "4",
+              "type": "Continuous",
+              "ruleCategorical": [],
+              "ruleRegression": 0.41100000000000003,
+              "impurity": 11.07222222222208,
+              "trueNode": {
+                "feature": "5",
+                "type": "Continuous",
+                "ruleCategorical": [],
+                "ruleRegression": 6.604,
+                "impurity": 1.166666666666515,
+                "trueNode": {
+                  "leafValue": 29.1,
+                  "impurity": 0.0
+                },
+                "falseNode": {
+                  "feature": "0",
+                  "type": "Continuous",
+                  "ruleCategorical": [],
+                  "ruleRegression": 0.01432,
+                  "impurity": 0.06249999999965894,
+                  "trueNode": {
+                    "leafValue": 31.6,
+                    "impurity": 0.0
+                  },
+                  "falseNode": {
+                    "leafValue": 31.1,
+                    "impurity": -1.0
+                  }
+                }
+              },
+              "falseNode": {
+                "feature": "2",
+                "type": "Continuous",
+                "ruleCategorical": [],
+                "ruleRegression": 2.01,
+                "impurity": 0.06888888888875044,
+                "trueNode": {
+                  "leafValue": 24.5,
+                  "impurity": 0.0
+                },
+                "falseNode": {
+                  "feature": "0",
+                  "type": "Continuous",
+                  "ruleCategorical": [],
+                  "ruleRegression": 0.00632,
+                  "impurity": 0.002499999999827196,
+                  "trueNode": {
+                    "leafValue": 24.0,
+                    "impurity": 0.0
+                  },
+                  "falseNode": {
+                    "leafValue": 23.9,
+                    "impurity": -1.0
+                  }
+                }
+              }
+            },
+            "falseNode": {
+              "feature": "10",
+              "type": "Continuous",
+              "ruleCategorical": [],
+              "ruleRegression": 17.4,
+              "impurity": 1.8207638888887534,
+              "trueNode": {
+                "feature": "1",
+                "type": "Continuous",
+                "ruleCategorical": [],
+                "ruleRegression": 20.0,
+                "impurity": 1.0580555555557112,
+                "trueNode": {
+                  "feature": "4",
+                  "type": "Continuous",
+                  "ruleCategorical": [],
+                  "ruleRegression": 0.43700000000000006,
+                  "impurity": 0.32560000000012224,
+                  "trueNode": {
+                    "leafValue": 28.6,
+                    "impurity": 0.0
+                  },
+                  "falseNode": {
+                    "feature": "5",
+                    "type": "Continuous",
+                    "ruleCategorical": [],
+                    "ruleRegression": 6.546,
+                    "impurity": 0.08187500000008185,
+                    "trueNode": {
+                      "leafValue": 29.4,
+                      "impurity": 0.0
+                    },
+                    "falseNode": {
+                      "feature": "5",
+                      "type": "Continuous",
+                      "ruleCategorical": [],
+                      "ruleRegression": 6.8420000000000005,
+                      "impurity": 0.008888888888880805,
+                      "trueNode": {
+                        "leafValue": 30.1,
+                        "impurity": 0.0
+                      },
+                      "falseNode": {
+                        "leafValue": 29.89999999999999,
+                        "impurity": -1.0
+                      }
+                    }
+                  }
+                },
+                "falseNode": {
+                  "leafValue": 32.0,
+                  "impurity": 0.0
+                }
+              },
+              "falseNode": {
+                "feature": "0",
+                "type": "Continuous",
+                "ruleCategorical": [],
+                "ruleRegression": 0.030489999999999996,
+                "impurity": 0.6166666666666364,
+                "trueNode": {
+                  "feature": "0",
+                  "type": "Continuous",
+                  "ruleCategorical": [],
+                  "ruleRegression": 0.027630000000000002,
+                  "impurity": 0.03999999999996362,
+                  "trueNode": {
+                    "leafValue": 30.8,
+                    "impurity": 0.0
+                  },
+                  "falseNode": {
+                    "leafValue": 31.2,
+                    "impurity": -1.0
+                  }
+                },
+                "falseNode": {
+                  "feature": "6",
+                  "type": "Continuous",
+                  "ruleCategorical": [],
+                  "ruleRegression": 27.6,
+                  "impurity": 0.1550000000002001,
+                  "trueNode": {
+                    "leafValue": 33.1,
+                    "impurity": 0.0
+                  },
+                  "falseNode": {
+                    "feature": "5",
+                    "type": "Continuous",
+                    "ruleCategorical": [],
+                    "ruleRegression": 6.757999999999999,
+                    "impurity": 0.04666666666647264,
+                    "trueNode": {
+                      "feature": "0",
+                      "type": "Continuous",
+                      "ruleCategorical": [],
+                      "ruleRegression": 0.05644,
+                      "impurity": 0.002499999999827196,
+                      "trueNode": {
+                        "leafValue": 32.4,
+                        "impurity": 0.0
+                      },
+                      "falseNode": {
+                        "leafValue": 32.50000000000001,
+                        "impurity": -1.0
+                      }
+                    },
+                    "falseNode": {
+                      "leafValue": 32.0,
+                      "impurity": 0.0
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "falseNode": {
+            "feature": "6",
+            "type": "Continuous",
+            "ruleCategorical": [],
+            "ruleRegression": 70.3,
+            "impurity": 3.535041322313356,
+            "trueNode": {
+              "feature": "11",
+              "type": "Continuous",
+              "ruleCategorical": [],
+              "ruleRegression": 393.74,
+              "impurity": 0.7391836734695971,
+              "trueNode": {
+                "feature": "0",
+                "type": "Continuous",
+                "ruleCategorical": [],
+                "ruleRegression": 0.05735,
+                "impurity": 0.03555555555552322,
+                "trueNode": {
+                  "leafValue": 26.6,
+                  "impurity": 0.0
+                },
+                "falseNode": {
+                  "leafValue": 26.200000000000003,
+                  "impurity": -1.0
+                }
+              },
+              "falseNode": {
+                "feature": "0",
+                "type": "Continuous",
+                "ruleCategorical": [],
+                "ruleRegression": 0.035019999999999996,
+                "impurity": 0.05249999999989541,
+                "trueNode": {
+                  "leafValue": 28.5,
+                  "impurity": 0.0
+                },
+                "falseNode": {
+                  "feature": "0",
+                  "type": "Continuous",
+                  "ruleCategorical": [],
+                  "ruleRegression": 0.04113,
+                  "impurity": 0.015555555555238243,
+                  "trueNode": {
+                    "feature": "0",
+                    "type": "Continuous",
+                    "ruleCategorical": [],
+                    "ruleRegression": 0.03615,
+                    "impurity": 0.002499999999940883,
+                    "trueNode": {
+                      "leafValue": 27.9,
+                      "impurity": 0.0
+                    },
+                    "falseNode": {
+                      "leafValue": 28.0,
+                      "impurity": -1.0
+                    }
+                  },
+                  "falseNode": {
+                    "leafValue": 28.199999999999996,
+                    "impurity": 0.0
+                  }
+                }
+              }
+            },
+            "falseNode": {
+              "feature": "5",
+              "type": "Continuous",
+              "ruleCategorical": [],
+              "ruleRegression": 6.75,
+              "impurity": 1.896874999999909,
+              "trueNode": {
+                "feature": "7",
+                "type": "Continuous",
+                "ruleCategorical": [],
+                "ruleRegression": 3.3175,
+                "impurity": 0.2288888888887565,
+                "trueNode": {
+                  "leafValue": 22.8,
+                  "impurity": 0.0
+                },
+                "falseNode": {
+                  "feature": "0",
+                  "type": "Continuous",
+                  "ruleCategorical": [],
+                  "ruleRegression": 0.04462,
+                  "impurity": 0.009999999999649845,
+                  "trueNode": {
+                    "leafValue": 23.9,
+                    "impurity": 0.0
+                  },
+                  "falseNode": {
+                    "leafValue": 23.699999999999996,
+                    "impurity": -1.0
+                  }
+                }
+              },
+              "falseNode": {
+                "leafValue": 26.5,
+                "impurity": 0.0
+              }
+            }
+          }
+        }
+      }
+    },
+    "falseNode": {
+      "feature": "5",
+      "type": "Continuous",
+      "ruleCategorical": [],
+      "ruleRegression": 7.42,
+      "impurity": 55.32861053719071,
+      "trueNode": {
+        "feature": "7",
+        "type": "Continuous",
+        "ruleCategorical": [],
+        "ruleRegression": 1.8773,
+        "impurity": 18.196000000000495,
+        "trueNode": {
+          "feature": "2",
+          "type": "Continuous",
+          "ruleCategorical": [],
+          "ruleRegression": 18.1,
+          "impurity": 18.922500000000127,
+          "trueNode": {
+            "leafValue": 50.0,
+            "impurity": 0.0
+          },
+          "falseNode": {
+            "leafValue": 41.3,
+            "impurity": -1.0
+          }
+        },
+        "falseNode": {
+          "feature": "8",
+          "type": "Categorical",
+          "ruleCategorical": [
+            24.0,
+            8.0,
+            1.0
+          ],
+          "ruleRegression": -1.7976931348623157E+308,
+          "impurity": 7.532816635160682,
+          "trueNode": {
+            "feature": "0",
+            "type": "Continuous",
+            "ruleCategorical": [],
+            "ruleRegression": 0.51183,
+            "impurity": 7.347999999999956,
+            "trueNode": {
+              "feature": "5",
+              "type": "Continuous",
+              "ruleCategorical": [],
+              "ruleRegression": 7.087999999999999,
+              "impurity": 0.0724999999999909,
+              "trueNode": {
+                "leafValue": 32.2,
+                "impurity": 0.0
+              },
+              "falseNode": {
+                "feature": "6",
+                "type": "Continuous",
+                "ruleCategorical": [],
+                "ruleRegression": 71.6,
+                "impurity": 0.006666666666357439,
+                "trueNode": {
+                  "leafValue": 31.5,
+                  "impurity": 0.0
+                },
+                "falseNode": {
+                  "feature": "0",
+                  "type": "Continuous",
+                  "ruleCategorical": [],
+                  "ruleRegression": 0.41238,
+                  "impurity": 0.0024999999995998223,
+                  "trueNode": {
+                    "leafValue": 31.6,
+                    "impurity": 0.0
+                  },
+                  "falseNode": {
+                    "leafValue": 31.699999999999996,
+                    "impurity": -1.0
+                  }
+                }
+              }
+            },
+            "falseNode": {
+              "leafValue": 25.0,
+              "impurity": 0.0
+            }
+          },
+          "falseNode": {
+            "feature": "8",
+            "type": "Categorical",
+            "ruleCategorical": [
+              2.0,
+              7.0
+            ],
+            "ruleRegression": -1.7976931348623157E+308,
+            "impurity": 2.6217283950615333,
+            "trueNode": {
+              "feature": "12",
+              "type": "Continuous",
+              "ruleCategorical": [],
+              "ruleRegression": 6.47,
+              "impurity": 1.1758333333335333,
+              "trueNode": {
+                "feature": "2",
+                "type": "Continuous",
+                "ruleCategorical": [],
+                "ruleRegression": 2.18,
+                "impurity": 0.012500000000045475,
+                "trueNode": {
+                  "feature": "0",
+                  "type": "Continuous",
+                  "ruleCategorical": [],
+                  "ruleRegression": 0.04011,
+                  "impurity": 0.0025000000002819434,
+                  "trueNode": {
+                    "leafValue": 33.3,
+                    "impurity": 0.0
+                  },
+                  "falseNode": {
+                    "leafValue": 33.39999999999999,
+                    "impurity": -1.0
+                  }
+                },
+                "falseNode": {
+                  "feature": "0",
+                  "type": "Continuous",
+                  "ruleCategorical": [],
+                  "ruleRegression": 0.0686,
+                  "impurity": 0.002499999999827196,
+                  "trueNode": {
+                    "leafValue": 33.2,
+                    "impurity": 0.0
+                  },
+                  "falseNode": {
+                    "leafValue": 33.10000000000001,
+                    "impurity": -1.0
+                  }
+                }
+              },
+              "falseNode": {
+                "feature": "0",
+                "type": "Continuous",
+                "ruleCategorical": [],
+                "ruleRegression": 0.03768,
+                "impurity": 0.5625000000004547,
+                "trueNode": {
+                  "leafValue": 34.6,
+                  "impurity": 0.0
+                },
+                "falseNode": {
+                  "leafValue": 36.1,
+                  "impurity": -1.0
+                }
+              }
+            },
+            "falseNode": {
+              "feature": "0",
+              "type": "Continuous",
+              "ruleCategorical": [],
+              "ruleRegression": 0.033589999999999995,
+              "impurity": 2.214097222222032,
+              "trueNode": {
+                "feature": "11",
+                "type": "Continuous",
+                "ruleCategorical": [],
+                "ruleRegression": 394.63,
+                "impurity": 0.9399999999999636,
+                "trueNode": {
+                  "feature": "0",
+                  "type": "Continuous",
+                  "ruleCategorical": [],
+                  "ruleRegression": 0.01778,
+                  "impurity": 0.0625,
+                  "trueNode": {
+                    "leafValue": 32.9,
+                    "impurity": 0.0
+                  },
+                  "falseNode": {
+                    "leafValue": 33.4,
+                    "impurity": 0.0
+                  }
+                },
+                "falseNode": {
+                  "feature": "5",
+                  "type": "Continuous",
+                  "ruleCategorical": [],
+                  "ruleRegression": 7.024,
+                  "impurity": 0.05555555555535344,
+                  "trueNode": {
+                    "leafValue": 34.9,
+                    "impurity": 0.0
+                  },
+                  "falseNode": {
+                    "leafValue": 35.39999999999999,
+                    "impurity": -1.0
+                  }
+                }
+              },
+              "falseNode": {
+                "feature": "12",
+                "type": "Continuous",
+                "ruleCategorical": [],
+                "ruleRegression": 5.1,
+                "impurity": 0.3995918367350636,
+                "trueNode": {
+                  "feature": "5",
+                  "type": "Continuous",
+                  "ruleCategorical": [],
+                  "ruleRegression": 7.155,
+                  "impurity": 0.23439999999973224,
+                  "trueNode": {
+                    "feature": "0",
+                    "type": "Continuous",
+                    "ruleCategorical": [],
+                    "ruleRegression": 0.09068,
+                    "impurity": 0.11249999999995453,
+                    "trueNode": {
+                      "feature": "0",
+                      "type": "Continuous",
+                      "ruleCategorical": [],
+                      "ruleRegression": 0.07886,
+                      "impurity": 0.01555555555569299,
+                      "trueNode": {
+                        "feature": "0",
+                        "type": "Continuous",
+                        "ruleCategorical": [],
+                        "ruleRegression": 0.0578,
+                        "impurity": 0.0025000000000545697,
+                        "trueNode": {
+                          "leafValue": 37.2,
+                          "impurity": 0.0
+                        },
+                        "falseNode": {
+                          "leafValue": 37.3,
+                          "impurity": -1.0
+                        }
+                      },
+                      "falseNode": {
+                        "leafValue": 37.0,
+                        "impurity": 0.0
+                      }
+                    },
+                    "falseNode": {
+                      "leafValue": 37.900000000000006,
+                      "impurity": -1.0
+                    }
+                  },
+                  "falseNode": {
+                    "leafValue": 36.400000000000006,
+                    "impurity": -1.0
+                  }
+                },
+                "falseNode": {
+                  "feature": "0",
+                  "type": "Continuous",
+                  "ruleCategorical": [],
+                  "ruleRegression": 0.06905,
+                  "impurity": 0.010000000000673026,
+                  "trueNode": {
+                    "leafValue": 36.2,
+                    "impurity": 0.0
+                  },
+                  "falseNode": {
+                    "leafValue": 36.0,
+                    "impurity": -1.0
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "falseNode": {
+        "feature": "10",
+        "type": "Continuous",
+        "ruleCategorical": [],
+        "ruleRegression": 17.4,
+        "impurity": 52.817950138504735,
+        "trueNode": {
+          "feature": "10",
+          "type": "Continuous",
+          "ruleCategorical": [],
+          "ruleRegression": 14.7,
+          "impurity": 14.889155555555286,
+          "trueNode": {
+            "feature": "5",
+            "type": "Continuous",
+            "ruleCategorical": [],
+            "ruleRegression": 7.52,
+            "impurity": 4.248900000000139,
+            "trueNode": {
+              "feature": "1",
+              "type": "Continuous",
+              "ruleCategorical": [],
+              "ruleRegression": 0.0,
+              "impurity": 11.9025000000006,
+              "trueNode": {
+                "leafValue": 50.0,
+                "impurity": 0.0
+              },
+              "falseNode": {
+                "leafValue": 43.099999999999994,
+                "impurity": -1.0
+              }
+            },
+            "falseNode": {
+              "feature": "4",
+              "type": "Continuous",
+              "ruleCategorical": [],
+              "ruleRegression": 0.605,
+              "impurity": 0.15749999999889042,
+              "trueNode": {
+                "leafValue": 50.0,
+                "impurity": 0.0
+              },
+              "falseNode": {
+                "feature": "0",
+                "type": "Continuous",
+                "ruleCategorical": [],
+                "ruleRegression": 0.5201399999999999,
+                "impurity": 0.3599999999987631,
+                "trueNode": {
+                  "leafValue": 48.8,
+                  "impurity": 0.0
+                },
+                "falseNode": {
+                  "leafValue": 50.0,
+                  "impurity": 0.0
+                }
+              }
+            }
+          },
+          "falseNode": {
+            "feature": "11",
+            "type": "Continuous",
+            "ruleCategorical": [],
+            "ruleRegression": 382.0,
+            "impurity": 17.230399999998554,
+            "trueNode": {
+              "feature": "0",
+              "type": "Continuous",
+              "ruleCategorical": [],
+              "ruleRegression": 0.06129,
+              "impurity": 4.0,
+              "trueNode": {
+                "leafValue": 46.0,
+                "impurity": 0.0
+              },
+              "falseNode": {
+                "leafValue": 50.0,
+                "impurity": 0.0
+              }
+            },
+            "falseNode": {
+              "feature": "7",
+              "type": "Continuous",
+              "ruleCategorical": [],
+              "ruleRegression": 3.2157,
+              "impurity": 7.006666666667115,
+              "trueNode": {
+                "leafValue": 37.6,
+                "impurity": 0.0
+              },
+              "falseNode": {
+                "feature": "0",
+                "type": "Continuous",
+                "ruleCategorical": [],
+                "ruleRegression": 0.015380000000000001,
+                "impurity": 1.3224999999995362,
+                "trueNode": {
+                  "leafValue": 44.0,
+                  "impurity": 0.0
+                },
+                "falseNode": {
+                  "leafValue": 41.7,
+                  "impurity": 0.0
+                }
+              }
+            }
+          }
+        },
+        "falseNode": {
+          "feature": "7",
+          "type": "Continuous",
+          "ruleCategorical": [],
+          "ruleRegression": 1.9047,
+          "impurity": 50.88500000000067,
+          "trueNode": {
+            "leafValue": 21.9,
+            "impurity": 0.0
+          },
+          "falseNode": {
+            "feature": "0",
+            "type": "Continuous",
+            "ruleCategorical": [],
+            "ruleRegression": 0.12082999999999999,
+            "impurity": 3.8466666666663514,
+            "trueNode": {
+              "feature": "0",
+              "type": "Continuous",
+              "ruleCategorical": [],
+              "ruleRegression": 0.06588,
+              "impurity": 0.3025000000000091,
+              "trueNode": {
+                "leafValue": 39.8,
+                "impurity": 0.0
+              },
+              "falseNode": {
+                "leafValue": 38.7,
+                "impurity": 0.0
+              }
+            },
+            "falseNode": {
+              "leafValue": 35.2,
+              "impurity": -1.0
+            }
+          }
+        }
+      }
+    }
+  },
+  "falseNode": {
+    "feature": "12",
+    "type": "Continuous",
+    "ruleCategorical": [],
+    "ruleRegression": 14.98,
+    "impurity": 28.70275500685912,
+    "trueNode": {
+      "feature": "7",
+      "type": "Continuous",
+      "ruleCategorical": [],
+      "ruleRegression": 1.1296,
+      "impurity": 15.646592987432545,
+      "trueNode": {
+        "leafValue": 50.0,
+        "impurity": 0.0
+      },
+      "falseNode": {
+        "feature": "5",
+        "type": "Continuous",
+        "ruleCategorical": [],
+        "ruleRegression": 6.495,
+        "impurity": 10.012529260067566,
+        "trueNode": {
+          "feature": "10",
+          "type": "Continuous",
+          "ruleCategorical": [],
+          "ruleRegression": 19.1,
+          "impurity": 5.999227478455073,
+          "trueNode": {
+            "feature": "5",
+            "type": "Continuous",
+            "ruleCategorical": [],
+            "ruleRegression": 6.2860000000000005,
+            "impurity": 5.528093632215939,
+            "trueNode": {
+              "feature": "9",
+              "type": "Continuous",
+              "ruleCategorical": [],
+              "ruleRegression": 296.0,
+              "impurity": 4.74208085612347,
+              "trueNode": {
+                "feature": "4",
+                "type": "Continuous",
+                "ruleCategorical": [],
+                "ruleRegression": 0.46399999999999997,
+                "impurity": 2.9833333333333485,
+                "trueNode": {
+                  "feature": "12",
+                  "type": "Continuous",
+                  "ruleCategorical": [],
+                  "ruleRegression": 8.58,
+                  "impurity": 1.7951479289940135,
+                  "trueNode": {
+                    "feature": "2",
+                    "type": "Continuous",
+                    "ruleCategorical": [],
+                    "ruleRegression": 4.49,
+                    "impurity": 0.508888888888805,
+                    "trueNode": {
+                      "leafValue": 22.2,
+                      "impurity": 0.0
+                    },
+                    "falseNode": {
+                      "feature": "0",
+                      "type": "Continuous",
+                      "ruleCategorical": [],
+                      "ruleRegression": 0.04981,
+                      "impurity": 0.0625,
+                      "trueNode": {
+                        "leafValue": 23.4,
+                        "impurity": 0.0
+                      },
+                      "falseNode": {
+                        "leafValue": 23.9,
+                        "impurity": -1.0
+                      }
+                    }
+                  },
+                  "falseNode": {
+                    "feature": "5",
+                    "type": "Continuous",
+                    "ruleCategorical": [],
+                    "ruleRegression": 5.962999999999999,
+                    "impurity": 0.8444000000001324,
+                    "trueNode": {
+                      "feature": "2",
+                      "type": "Continuous",
+                      "ruleCategorical": [],
+                      "ruleRegression": 6.91,
+                      "impurity": 0.261874999999975,
+                      "trueNode": {
+                        "feature": "5",
+                        "type": "Continuous",
+                        "ruleCategorical": [],
+                        "ruleRegression": 5.682,
+                        "impurity": 0.08222222222222324,
+                        "trueNode": {
+                          "leafValue": 19.3,
+                          "impurity": 0.0
+                        },
+                        "falseNode": {
+                          "feature": "0",
+                          "type": "Continuous",
+                          "ruleCategorical": [],
+                          "ruleRegression": 0.08872999999999999,
+                          "impurity": 0.022499999999922693,
+                          "trueNode": {
+                            "leafValue": 19.7,
+                            "impurity": 0.0
+                          },
+                          "falseNode": {
+                            "leafValue": 20.000000000000004,
+                            "impurity": -1.0
+                          }
+                        }
+                      },
+                      "falseNode": {
+                        "leafValue": 20.700000000000003,
+                        "impurity": -1.0
+                      }
+                    },
+                    "falseNode": {
+                      "feature": "5",
+                      "type": "Continuous",
+                      "ruleCategorical": [],
+                      "ruleRegression": 6.015,
+                      "impurity": 0.45805555555572636,
+                      "trueNode": {
+                        "feature": "4",
+                        "type": "Continuous",
+                        "ruleCategorical": [],
+                        "ruleRegression": 0.43700000000000006,
+                        "impurity": 0.15999999999991132,
+                        "trueNode": {
+                          "leafValue": 21.7,
+                          "impurity": 0.0
+                        },
+                        "falseNode": {
+                          "leafValue": 22.500000000000004,
+                          "impurity": -1.0
+                        }
+                      },
+                      "falseNode": {
+                        "feature": "0",
+                        "type": "Continuous",
+                        "ruleCategorical": [],
+                        "ruleRegression": 0.04337,
+                        "impurity": 0.14687500000002274,
+                        "trueNode": {
+                          "feature": "0",
+                          "type": "Continuous",
+                          "ruleCategorical": [],
+                          "ruleRegression": 0.04294,
+                          "impurity": 0.0025000000000545697,
+                          "trueNode": {
+                            "leafValue": 20.6,
+                            "impurity": 0.0
+                          },
+                          "falseNode": {
+                            "leafValue": 20.5,
+                            "impurity": -1.0
+                          }
+                        },
+                        "falseNode": {
+                          "feature": "5",
+                          "type": "Continuous",
+                          "ruleCategorical": [],
+                          "ruleRegression": 6.069,
+                          "impurity": 0.009999999999990905,
+                          "trueNode": {
+                            "leafValue": 21.2,
+                            "impurity": 0.0
+                          },
+                          "falseNode": {
+                            "leafValue": 21.399999999999995,
+                            "impurity": -1.0
+                          }
+                        }
+                      }
+                    }
+                  }
+                },
+                "falseNode": {
+                  "feature": "8",
+                  "type": "Categorical",
+                  "ruleCategorical": [
+                    2.0,
+                    5.0
+                  ],
+                  "ruleRegression": -1.7976931348623157E+308,
+                  "impurity": 2.591404958677975,
+                  "trueNode": {
+                    "feature": "11",
+                    "type": "Continuous",
+                    "ruleCategorical": [],
+                    "ruleRegression": 385.02,
+                    "impurity": 0.9598437500001182,
+                    "trueNode": {
+                      "feature": "0",
+                      "type": "Continuous",
+                      "ruleCategorical": [],
+                      "ruleRegression": 0.07165,
+                      "impurity": 0.3024999999998954,
+                      "trueNode": {
+                        "leafValue": 20.3,
+                        "impurity": 0.0
+                      },
+                      "falseNode": {
+                        "leafValue": 21.400000000000002,
+                        "impurity": -1.0
+                      }
+                    },
+                    "falseNode": {
+                      "feature": "2",
+                      "type": "Continuous",
+                      "ruleCategorical": [],
+                      "ruleRegression": 13.89,
+                      "impurity": 0.19555555555560508,
+                      "trueNode": {
+                        "feature": "5",
+                        "type": "Continuous",
+                        "ruleCategorical": [],
+                        "ruleRegression": 5.859,
+                        "impurity": 0.0680000000000291,
+                        "trueNode": {
+                          "feature": "6",
+                          "type": "Continuous",
+                          "ruleCategorical": [],
+                          "ruleRegression": 68.7,
+                          "impurity": 0.04222222222225961,
+                          "trueNode": {
+                            "feature": "2",
+                            "type": "Continuous",
+                            "ruleCategorical": [],
+                            "ruleRegression": 3.97,
+                            "impurity": 0.009999999999990905,
+                            "trueNode": {
+                              "leafValue": 22.8,
+                              "impurity": 0.0
+                            },
+                            "falseNode": {
+                              "leafValue": 22.600000000000005,
+                              "impurity": -1.0
+                            }
+                          },
+                          "falseNode": {
+                            "leafValue": 23.099999999999994,
+                            "impurity": -1.0
+                          }
+                        },
+                        "falseNode": {
+                          "feature": "0",
+                          "type": "Continuous",
+                          "ruleCategorical": [],
+                          "ruleRegression": 0.0456,
+                          "impurity": 0.0025000000000545697,
+                          "trueNode": {
+                            "leafValue": 23.3,
+                            "impurity": 0.0
+                          },
+                          "falseNode": {
+                            "leafValue": 23.2,
+                            "impurity": -1.0
+                          }
+                        }
+                      },
+                      "falseNode": {
+                        "leafValue": 22.0,
+                        "impurity": 0.0
+                      }
+                    }
+                  },
+                  "falseNode": {
+                    "feature": "0",
+                    "type": "Continuous",
+                    "ruleCategorical": [],
+                    "ruleRegression": 0.08308,
+                    "impurity": 0.7022222222218867,
+                    "trueNode": {
+                      "leafValue": 26.4,
+                      "impurity": 0.0
+                    },
+                    "falseNode": {
+                      "feature": "0",
+                      "type": "Continuous",
+                      "ruleCategorical": [],
+                      "ruleRegression": 0.13587,
+                      "impurity": 0.08999999999991815,
+                      "trueNode": {
+                        "leafValue": 24.4,
+                        "impurity": 0.0
+                      },
+                      "falseNode": {
+                        "leafValue": 25.0,
+                        "impurity": 0.0
+                      }
+                    }
+                  }
+                }
+              },
+              "falseNode": {
+                "feature": "5",
+                "type": "Continuous",
+                "ruleCategorical": [],
+                "ruleRegression": 5.875,
+                "impurity": 4.50359861591722,
+                "trueNode": {
+                  "feature": "9",
+                  "type": "Continuous",
+                  "ruleCategorical": [],
+                  "ruleRegression": 330.0,
+                  "impurity": 1.7264999999999417,
+                  "trueNode": {
+                    "feature": "0",
+                    "type": "Continuous",
+                    "ruleCategorical": [],
+                    "ruleRegression": 0.20608,
+                    "impurity": 0.38888888888887624,
+                    "trueNode": {
+                      "feature": "0",
+                      "type": "Continuous",
+                      "ruleCategorical": [],
+                      "ruleRegression": 0.050230000000000004,
+                      "impurity": 0.0625,
+                      "trueNode": {
+                        "leafValue": 17.1,
+                        "impurity": 0.0
+                      },
+                      "falseNode": {
+                        "leafValue": 17.6,
+                        "impurity": 0.0
+                      }
+                    },
+                    "falseNode": {
+                      "leafValue": 16.1,
+                      "impurity": 0.0
+                    }
+                  },
+                  "falseNode": {
+                    "feature": "10",
+                    "type": "Continuous",
+                    "ruleCategorical": [],
+                    "ruleRegression": 18.7,
+                    "impurity": 1.0710204081632841,
+                    "trueNode": {
+                      "feature": "5",
+                      "type": "Continuous",
+                      "ruleCategorical": [],
+                      "ruleRegression": 5.874,
+                      "impurity": 0.7780555555555111,
+                      "trueNode": {
+                        "feature": "5",
+                        "type": "Continuous",
+                        "ruleCategorical": [],
+                        "ruleRegression": 5.867999999999999,
+                        "impurity": 0.14159999999997125,
+                        "trueNode": {
+                          "feature": "5",
+                          "type": "Continuous",
+                          "ruleCategorical": [],
+                          "ruleRegression": 5.404,
+                          "impurity": 0.014999999999929514,
+                          "trueNode": {
+                            "leafValue": 19.6,
+                            "impurity": 0.0
+                          },
+                          "falseNode": {
+                            "feature": "1",
+                            "type": "Continuous",
+                            "ruleCategorical": [],
+                            "ruleRegression": 0.0,
+                            "impurity": 0.0022222222220686185,
+                            "trueNode": {
+                              "leafValue": 19.3,
+                              "impurity": 0.0
+                            },
+                            "falseNode": {
+                              "leafValue": 19.4,
+                              "impurity": -1.0
+                            }
+                          }
+                        },
+                        "falseNode": {
+                          "leafValue": 20.299999999999997,
+                          "impurity": -1.0
+                        }
+                      },
+                      "falseNode": {
+                        "leafValue": 17.400000000000006,
+                        "impurity": -1.0
+                      }
+                    },
+                    "falseNode": {
+                      "leafValue": 17.39999999999999,
+                      "impurity": -1.0
+                    }
+                  }
+                },
+                "falseNode": {
+                  "feature": "11",
+                  "type": "Continuous",
+                  "ruleCategorical": [],
+                  "ruleRegression": 240.16,
+                  "impurity": 3.509982638888914,
+                  "trueNode": {
+                    "feature": "0",
+                    "type": "Continuous",
+                    "ruleCategorical": [],
+                    "ruleRegression": 1.8002799999999999,
+                    "impurity": 0.36000000000012733,
+                    "trueNode": {
+                      "leafValue": 23.8,
+                      "impurity": 0.0
+                    },
+                    "falseNode": {
+                      "leafValue": 24.999999999999996,
+                      "impurity": -1.0
+                    }
+                  },
+                  "falseNode": {
+                    "feature": "8",
+                    "type": "Categorical",
+                    "ruleCategorical": [
+                      3.0,
+                      6.0,
+                      4.0,
+                      5.0,
+                      1.0
+                    ],
+                    "ruleRegression": -1.7976931348623157E+308,
+                    "impurity": 2.6861363636364994,
+                    "trueNode": {
+                      "feature": "0",
+                      "type": "Continuous",
+                      "ruleCategorical": [],
+                      "ruleRegression": 0.03113,
+                      "impurity": 1.6809000000000196,
+                      "trueNode": {
+                        "leafValue": 17.5,
+                        "impurity": 0.0
+                      },
+                      "falseNode": {
+                        "feature": "6",
+                        "type": "Continuous",
+                        "ruleCategorical": [],
+                        "ruleRegression": 82.8,
+                        "impurity": 1.3002216066480334,
+                        "trueNode": {
+                          "feature": "10",
+                          "type": "Continuous",
+                          "ruleCategorical": [],
+                          "ruleRegression": 15.2,
+                          "impurity": 0.801071428571439,
+                          "trueNode": {
+                            "leafValue": 22.9,
+                            "impurity": 0.0
+                          },
+                          "falseNode": {
+                            "feature": "12",
+                            "type": "Continuous",
+                            "ruleCategorical": [],
+                            "ruleRegression": 8.94,
+                            "impurity": 0.5476923076922293,
+                            "trueNode": {
+                              "feature": "11",
+                              "type": "Continuous",
+                              "ruleCategorical": [],
+                              "ruleRegression": 396.21,
+                              "impurity": 0.15687499999989996,
+                              "trueNode": {
+                                "leafValue": 21.666666666666668,
+                                "impurity": 0.06222222222224142
+                              },
+                              "falseNode": {
+                                "leafValue": 20.900000000000006,
+                                "impurity": -2.8421709430404007E-13
+                              }
+                            },
+                            "falseNode": {
+                              "feature": "6",
+                              "type": "Continuous",
+                              "ruleCategorical": [],
+                              "ruleRegression": 76.7,
+                              "impurity": 0.42888888888895355,
+                              "trueNode": {
+                                "leafValue": 20.6625,
+                                "impurity": 0.24484375000002956
+                              },
+                              "falseNode": {
+                                "leafValue": 19.19999999999999,
+                                "impurity": 2.8421709430404007E-13
+                              }
+                            }
+                          }
+                        },
+                        "falseNode": {
+                          "feature": "7",
+                          "type": "Continuous",
+                          "ruleCategorical": [],
+                          "ruleRegression": 1.618,
+                          "impurity": 1.1056000000002313,
+                          "trueNode": {
+                            "leafValue": 21.5,
+                            "impurity": 0.0
+                          },
+                          "falseNode": {
+                            "feature": "0",
+                            "type": "Continuous",
+                            "ruleCategorical": [],
+                            "ruleRegression": 0.14231,
+                            "impurity": 0.10687499999983174,
+                            "trueNode": {
+                              "feature": "0",
+                              "type": "Continuous",
+                              "ruleCategorical": [],
+                              "ruleRegression": 0.11747,
+                              "impurity": 0.03999999999996362,
+                              "trueNode": {
+                                "leafValue": 18.9,
+                                "impurity": 0.0
+                              },
+                              "falseNode": {
+                                "leafValue": 18.5,
+                                "impurity": 0.0
+                              }
+                            },
+                            "falseNode": {
+                              "feature": "0",
+                              "type": "Continuous",
+                              "ruleCategorical": [],
+                              "ruleRegression": 0.26169000000000003,
+                              "impurity": 0.022499999999979536,
+                              "trueNode": {
+                                "leafValue": 19.4,
+                                "impurity": 0.0
+                              },
+                              "falseNode": {
+                                "leafValue": 19.1,
+                                "impurity": 5.6843418860808015E-14
+                              }
+                            }
+                          }
+                        }
+                      }
+                    },
+                    "falseNode": {
+                      "feature": "0",
+                      "type": "Continuous",
+                      "ruleCategorical": [],
+                      "ruleRegression": 0.33045,
+                      "impurity": 0.022499999999581632,
+                      "trueNode": {
+                        "leafValue": 24.0,
+                        "impurity": 0.0
+                      },
+                      "falseNode": {
+                        "leafValue": 24.299999999999997,
+                        "impurity": -1.0
+                      }
+                    }
+                  }
+                }
+              }
+            },
+            "falseNode": {
+              "feature": "6",
+              "type": "Continuous",
+              "ruleCategorical": [],
+              "ruleRegression": 32.3,
+              "impurity": 2.8874556213017617,
+              "trueNode": {
+                "feature": "0",
+                "type": "Continuous",
+                "ruleCategorical": [],
+                "ruleRegression": 0.09266,
+                "impurity": 0.7225000000000819,
+                "trueNode": {
+                  "leafValue": 26.4,
+                  "impurity": 0.0
+                },
+                "falseNode": {
+                  "leafValue": 28.1,
+                  "impurity": -1.0
+                }
+              },
+              "falseNode": {
+                "feature": "10",
+                "type": "Continuous",
+                "ruleCategorical": [],
+                "ruleRegression": 18.4,
+                "impurity": 0.7006611570246108,
+                "trueNode": {
+                  "feature": "11",
+                  "type": "Continuous",
+                  "ruleCategorical": [],
+                  "ruleRegression": 297.09,
+                  "impurity": 0.2998437499999227,
+                  "trueNode": {
+                    "leafValue": 23.8,
+                    "impurity": 0.0
+                  },
+                  "falseNode": {
+                    "feature": "11",
+                    "type": "Continuous",
+                    "ruleCategorical": [],
+                    "ruleRegression": 393.55,
+                    "impurity": 0.1583673469387707,
+                    "trueNode": {
+                      "feature": "5",
+                      "type": "Continuous",
+                      "ruleCategorical": [],
+                      "ruleRegression": 6.405,
+                      "impurity": 0.04687500000011369,
+                      "trueNode": {
+                        "feature": "0",
+                        "type": "Continuous",
+                        "ruleCategorical": [],
+                        "ruleRegression": 0.03932,
+                        "impurity": 0.015555555555617199,
+                        "trueNode": {
+                          "leafValue": 22.0,
+                          "impurity": 0.0
+                        },
+                        "falseNode": {
+                          "feature": "0",
+                          "type": "Continuous",
+                          "ruleCategorical": [],
+                          "ruleRegression": 0.1029,
+                          "impurity": 0.002499999999940883,
+                          "trueNode": {
+                            "leafValue": 22.2,
+                            "impurity": 0.0
+                          },
+                          "falseNode": {
+                            "leafValue": 22.3,
+                            "impurity": 0.0
+                          }
+                        }
+                      },
+                      "falseNode": {
+                        "leafValue": 22.599999999999994,
+                        "impurity": -1.0
+                      }
+                    },
+                    "falseNode": {
+                      "feature": "2",
+                      "type": "Continuous",
+                      "ruleCategorical": [],
+                      "ruleRegression": 9.9,
+                      "impurity": 0.006666666666736394,
+                      "trueNode": {
+                        "leafValue": 23.1,
+                        "impurity": 0.0
+                      },
+                      "falseNode": {
+                        "feature": "0",
+                        "type": "Continuous",
+                        "ruleCategorical": [],
+                        "ruleRegression": 0.04203,
+                        "impurity": 0.002499999999940883,
+                        "trueNode": {
+                          "leafValue": 22.9,
+                          "impurity": 0.0
+                        },
+                        "falseNode": {
+                          "leafValue": 23.0,
+                          "impurity": -1.0
+                        }
+                      }
+                    }
+                  }
+                },
+                "falseNode": {
+                  "feature": "8",
+                  "type": "Categorical",
+                  "ruleCategorical": [
+                    3.0
+                  ],
+                  "ruleRegression": -1.7976931348623157E+308,
+                  "impurity": 0.06888888888859886,
+                  "trueNode": {
+                    "leafValue": 23.9,
+                    "impurity": 0.0
+                  },
+                  "falseNode": {
+                    "feature": "0",
+                    "type": "Continuous",
+                    "ruleCategorical": [],
+                    "ruleRegression": 0.16439,
+                    "impurity": 0.002499999999827196,
+                    "trueNode": {
+                      "leafValue": 24.5,
+                      "impurity": 0.0
+                    },
+                    "falseNode": {
+                      "leafValue": 24.4,
+                      "impurity": 0.0
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "falseNode": {
+            "feature": "7",
+            "type": "Continuous",
+            "ruleCategorical": [],
+            "ruleRegression": 1.2852,
+            "impurity": 5.079630102040743,
+            "trueNode": {
+              "leafValue": 27.9,
+              "impurity": 0.0
+            },
+            "falseNode": {
+              "feature": "11",
+              "type": "Continuous",
+              "ruleCategorical": [],
+              "ruleRegression": 97.95,
+              "impurity": 3.9861355371902225,
+              "trueNode": {
+                "feature": "0",
+                "type": "Continuous",
+                "ruleCategorical": [],
+                "ruleRegression": 0.22876,
+                "impurity": 2.2688888888889096,
+                "trueNode": {
+                  "leafValue": 18.6,
+                  "impurity": 0.0
+                },
+                "falseNode": {
+                  "feature": "0",
+                  "type": "Continuous",
+                  "ruleCategorical": [],
+                  "ruleRegression": 6.44405,
+                  "impurity": 0.3025000000000091,
+                  "trueNode": {
+                    "leafValue": 16.1,
+                    "impurity": 0.0
+                  },
+                  "falseNode": {
+                    "leafValue": 15.0,
+                    "impurity": 0.0
+                  }
+                }
+              },
+              "falseNode": {
+                "feature": "8",
+                "type": "Categorical",
+                "ruleCategorical": [
+                  8.0,
+                  4.0
+                ],
+                "ruleRegression": -1.7976931348623157E+308,
+                "impurity": 3.4664940828400246,
+                "trueNode": {
+                  "feature": "12",
+                  "type": "Continuous",
+                  "ruleCategorical": [],
+                  "ruleRegression": 12.8,
+                  "impurity": 3.8984888888890055,
+                  "trueNode": {
+                    "feature": "6",
+                    "type": "Continuous",
+                    "ruleCategorical": [],
+                    "ruleRegression": 97.7,
+                    "impurity": 2.2044444444444604,
+                    "trueNode": {
+                      "feature": "11",
+                      "type": "Continuous",
+                      "ruleCategorical": [],
+                      "ruleRegression": 390.95,
+                      "impurity": 0.7899999999999636,
+                      "trueNode": {
+                        "feature": "0",
+                        "type": "Continuous",
+                        "ruleCategorical": [],
+                        "ruleRegression": 0.77299,
+                        "impurity": 0.6143999999999779,
+                        "trueNode": {
+                          "feature": "0",
+                          "type": "Continuous",
+                          "ruleCategorical": [],
+                          "ruleRegression": 0.7258,
+                          "impurity": 0.007499999999936335,
+                          "trueNode": {
+                            "leafValue": 18.2,
+                            "impurity": 0.0
+                          },
+                          "falseNode": {
+                            "leafValue": 18.400000000000006,
+                            "impurity": -1.0
+                          }
+                        },
+                        "falseNode": {
+                          "leafValue": 20.200000000000003,
+                          "impurity": -1.0
+                        }
+                      },
+                      "falseNode": {
+                        "feature": "12",
+                        "type": "Continuous",
+                        "ruleCategorical": [],
+                        "ruleRegression": 8.26,
+                        "impurity": 0.14222222222216865,
+                        "trueNode": {
+                          "leafValue": 20.4,
+                          "impurity": 0.0
+                        },
+                        "falseNode": {
+                          "leafValue": 19.6,
+                          "impurity": -1.0
+                        }
+                      }
+                    },
+                    "falseNode": {
+                      "leafValue": 23.0,
+                      "impurity": 0.0
+                    }
+                  },
+                  "falseNode": {
+                    "feature": "6",
+                    "type": "Continuous",
+                    "ruleCategorical": [],
+                    "ruleRegression": 89.2,
+                    "impurity": 2.8380555555554188,
+                    "trueNode": {
+                      "feature": "0",
+                      "type": "Continuous",
+                      "ruleCategorical": [],
+                      "ruleRegression": 0.14932,
+                      "impurity": 0.20250000000010004,
+                      "trueNode": {
+                        "leafValue": 18.7,
+                        "impurity": 0.0
+                      },
+                      "falseNode": {
+                        "leafValue": 19.599999999999998,
+                        "impurity": -1.0
+                      }
+                    },
+                    "falseNode": {
+                      "feature": "6",
+                      "type": "Continuous",
+                      "ruleCategorical": [],
+                      "ruleRegression": 98.4,
+                      "impurity": 0.9525000000000432,
+                      "trueNode": {
+                        "feature": "1",
+                        "type": "Continuous",
+                        "ruleCategorical": [],
+                        "ruleRegression": 0.0,
+                        "impurity": 0.20222222222222777,
+                        "trueNode": {
+                          "feature": "0",
+                          "type": "Continuous",
+                          "ruleCategorical": [],
+                          "ruleRegression": 0.35233000000000003,
+                          "impurity": 0.06249999999994316,
+                          "trueNode": {
+                            "leafValue": 17.1,
+                            "impurity": 0.0
+                          },
+                          "falseNode": {
+                            "leafValue": 16.6,
+                            "impurity": -1.0
+                          }
+                        },
+                        "falseNode": {
+                          "leafValue": 16.0,
+                          "impurity": 0.0
+                        }
+                      },
+                      "falseNode": {
+                        "leafValue": 14.5,
+                        "impurity": 0.0
+                      }
+                    }
+                  }
+                },
+                "falseNode": {
+                  "feature": "12",
+                  "type": "Continuous",
+                  "ruleCategorical": [],
+                  "ruleRegression": 14.36,
+                  "impurity": 2.204295105916842,
+                  "trueNode": {
+                    "feature": "2",
+                    "type": "Continuous",
+                    "ruleCategorical": [],
+                    "ruleRegression": 8.56,
+                    "impurity": 1.7296484375000887,
+                    "trueNode": {
+                      "feature": "5",
+                      "type": "Continuous",
+                      "ruleCategorical": [],
+                      "ruleRegression": 5.985,
+                      "impurity": 1.2885207100589469,
+                      "trueNode": {
+                        "feature": "11",
+                        "type": "Continuous",
+                        "ruleCategorical": [],
+                        "ruleRegression": 377.56,
+                        "impurity": 0.2888888888888535,
+                        "trueNode": {
+                          "leafValue": 20.0,
+                          "impurity": 0.0
+                        },
+                        "falseNode": {
+                          "feature": "11",
+                          "type": "Continuous",
+                          "ruleCategorical": [],
+                          "ruleRegression": 394.81,
+                          "impurity": 0.1375999999999749,
+                          "trueNode": {
+                            "leafValue": 18.5,
+                            "impurity": 0.0
+                          },
+                          "falseNode": {
+                            "feature": "0",
+                            "type": "Continuous",
+                            "ruleCategorical": [],
+                            "ruleRegression": 0.03427,
+                            "impurity": 0.06888888888882623,
+                            "trueNode": {
+                              "leafValue": 19.5,
+                              "impurity": 0.0
+                            },
+                            "falseNode": {
+                              "feature": "0",
+                              "type": "Continuous",
+                              "ruleCategorical": [],
+                              "ruleRegression": 0.054970000000000005,
+                              "impurity": 0.0025000000000545697,
+                              "trueNode": {
+                                "leafValue": 19.0,
+                                "impurity": 0.0
+                              },
+                              "falseNode": {
+                                "leafValue": 18.9,
+                                "impurity": 0.0
+                              }
+                            }
+                          }
+                        }
+                      },
+                      "falseNode": {
+                        "feature": "7",
+                        "type": "Continuous",
+                        "ruleCategorical": [],
+                        "ruleRegression": 2.7147,
+                        "impurity": 0.9355102040818954,
+                        "trueNode": {
+                          "feature": "5",
+                          "type": "Continuous",
+                          "ruleCategorical": [],
+                          "ruleRegression": 6.1370000000000005,
+                          "impurity": 0.10888888888886565,
+                          "trueNode": {
+                            "leafValue": 19.3,
+                            "impurity": 0.0
+                          },
+                          "falseNode": {
+                            "feature": "0",
+                            "type": "Continuous",
+                            "ruleCategorical": [],
+                            "ruleRegression": 0.12802,
+                            "impurity": 0.02249999999986585,
+                            "trueNode": {
+                              "leafValue": 19.8,
+                              "impurity": 0.0
+                            },
+                            "falseNode": {
+                              "leafValue": 20.100000000000005,
+                              "impurity": -1.0
+                            }
+                          }
+                        },
+                        "falseNode": {
+                          "feature": "0",
+                          "type": "Continuous",
+                          "ruleCategorical": [],
+                          "ruleRegression": 0.03961,
+                          "impurity": 0.36499999999995225,
+                          "trueNode": {
+                            "feature": "0",
+                            "type": "Continuous",
+                            "ruleCategorical": [],
+                            "ruleRegression": 0.03306,
+                            "impurity": 0.0625,
+                            "trueNode": {
+                              "leafValue": 20.6,
+                              "impurity": 0.0
+                            },
+                            "falseNode": {
+                              "leafValue": 21.1,
+                              "impurity": -1.0
+                            }
+                          },
+                          "falseNode": {
+                            "feature": "0",
+                            "type": "Continuous",
+                            "ruleCategorical": [],
+                            "ruleRegression": 0.10793,
+                            "impurity": 0.062499999999772626,
+                            "trueNode": {
+                              "leafValue": 21.7,
+                              "impurity": 0.0
+                            },
+                            "falseNode": {
+                              "leafValue": 22.2,
+                              "impurity": -1.0
+                            }
+                          }
+                        }
+                      }
+                    },
+                    "falseNode": {
+                      "feature": "12",
+                      "type": "Continuous",
+                      "ruleCategorical": [],
+                      "ruleRegression": 14.19,
+                      "impurity": 1.2370637119113923,
+                      "trueNode": {
+                        "feature": "12",
+                        "type": "Continuous",
+                        "ruleCategorical": [],
+                        "ruleRegression": 13.33,
+                        "impurity": 1.1022222222222302,
+                        "trueNode": {
+                          "feature": "0",
+                          "type": "Continuous",
+                          "ruleCategorical": [],
+                          "ruleRegression": 4.8356699999999995,
+                          "impurity": 0.8701775147927457,
+                          "trueNode": {
+                            "feature": "4",
+                            "type": "Continuous",
+                            "ruleCategorical": [],
+                            "ruleRegression": 0.583,
+                            "impurity": 0.664691358024811,
+                            "trueNode": {
+                              "feature": "0",
+                              "type": "Continuous",
+                              "ruleCategorical": [],
+                              "ruleRegression": 3.6736699999999995,
+                              "impurity": 0.660000000000025,
+                              "trueNode": {
+                                "leafValue": 21.5,
+                                "impurity": 0.09000000000003183
+                              },
+                              "falseNode": {
+                                "leafValue": 20.1,
+                                "impurity": 0.25000000000005684
+                              }
+                            },
+                            "falseNode": {
+                              "feature": "0",
+                              "type": "Continuous",
+                              "ruleCategorical": [],
+                              "ruleRegression": 3.8497,
+                              "impurity": 0.36959999999990034,
+                              "trueNode": {
+                                "leafValue": 21.375,
+                                "impurity": 0.1618750000000091
+                              },
+                              "falseNode": {
+                                "leafValue": 22.599999999999994,
+                                "impurity": 4.547473508864641E-13
+                              }
+                            }
+                          },
+                          "falseNode": {
+                            "feature": "5",
+                            "type": "Continuous",
+                            "ruleCategorical": [],
+                            "ruleRegression": 3.863,
+                            "impurity": 0.6818749999997635,
+                            "trueNode": {
+                              "leafValue": 23.1,
+                              "impurity": 0.0
+                            },
+                            "falseNode": {
+                              "feature": "0",
+                              "type": "Continuous",
+                              "ruleCategorical": [],
+                              "ruleRegression": 5.8240099999999995,
+                              "impurity": 0.5688888888885989,
+                              "trueNode": {
+                                "leafValue": 23.0,
+                                "impurity": 0.0
+                              },
+                              "falseNode": {
+                                "leafValue": 21.4,
+                                "impurity": 0.0
+                              }
+                            }
+                          }
+                        },
+                        "falseNode": {
+                          "feature": "5",
+                          "type": "Continuous",
+                          "ruleCategorical": [],
+                          "ruleRegression": 5.648,
+                          "impurity": 0.7440000000005057,
+                          "trueNode": {
+                            "feature": "0",
+                            "type": "Continuous",
+                            "ruleCategorical": [],
+                            "ruleRegression": 3.69695,
+                            "impurity": 0.30249999999995225,
+                            "trueNode": {
+                              "leafValue": 21.9,
+                              "impurity": 0.0
+                            },
+                            "falseNode": {
+                              "leafValue": 20.800000000000004,
+                              "impurity": -1.0
+                            }
+                          },
+                          "falseNode": {
+                            "feature": "0",
+                            "type": "Continuous",
+                            "ruleCategorical": [],
+                            "ruleRegression": 3.83684,
+                            "impurity": 0.03555555555559901,
+                            "trueNode": {
+                              "leafValue": 19.9,
+                              "impurity": 0.0
+                            },
+                            "falseNode": {
+                              "leafValue": 19.5,
+                              "impurity": -1.0
+                            }
+                          }
+                        }
+                      },
+                      "falseNode": {
+                        "leafValue": 23.19999999999999,
+                        "impurity": -1.0
+                      }
+                    }
+                  },
+                  "falseNode": {
+                    "feature": "11",
+                    "type": "Continuous",
+                    "ruleCategorical": [],
+                    "ruleRegression": 391.43,
+                    "impurity": 1.6823999999994157,
+                    "trueNode": {
+                      "feature": "0",
+                      "type": "Continuous",
+                      "ruleCategorical": [],
+                      "ruleRegression": 3.69311,
+                      "impurity": 0.20249999999998636,
+                      "trueNode": {
+                        "leafValue": 17.7,
+                        "impurity": 0.0
+                      },
+                      "falseNode": {
+                        "leafValue": 16.8,
+                        "impurity": 0.0
+                      }
+                    },
+                    "falseNode": {
+                      "feature": "0",
+                      "type": "Continuous",
+                      "ruleCategorical": [],
+                      "ruleRegression": 5.69175,
+                      "impurity": 0.20222222222218988,
+                      "trueNode": {
+                        "leafValue": 19.1,
+                        "impurity": 0.0
+                      },
+                      "falseNode": {
+                        "feature": "0",
+                        "type": "Continuous",
+                        "ruleCategorical": [],
+                        "ruleRegression": 6.80117,
+                        "impurity": 0.0024999999999977263,
+                        "trueNode": {
+                          "leafValue": 20.0,
+                          "impurity": 0.0
+                        },
+                        "falseNode": {
+                          "leafValue": 20.1,
+                          "impurity": -1.0
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
+        "falseNode": {
+          "feature": "9",
+          "type": "Continuous",
+          "ruleCategorical": [],
+          "ruleRegression": 276.0,
+          "impurity": 22.14239999999833,
+          "trueNode": {
+            "feature": "0",
+            "type": "Continuous",
+            "ruleCategorical": [],
+            "ruleRegression": 0.07013,
+            "impurity": 3.765599999999904,
+            "trueNode": {
+              "feature": "0",
+              "type": "Continuous",
+              "ruleCategorical": [],
+              "ruleRegression": 0.05479,
+              "impurity": 0.022500000000150067,
+              "trueNode": {
+                "leafValue": 28.4,
+                "impurity": 0.0
+              },
+              "falseNode": {
+                "leafValue": 28.699999999999996,
+                "impurity": -1.0
+              }
+            },
+            "falseNode": {
+              "feature": "12",
+              "type": "Continuous",
+              "ruleCategorical": [],
+              "ruleRegression": 9.59,
+              "impurity": 1.9488888888886322,
+              "trueNode": {
+                "leafValue": 33.8,
+                "impurity": 0.0
+              },
+              "falseNode": {
+                "feature": "0",
+                "type": "Continuous",
+                "ruleCategorical": [],
+                "ruleRegression": 0.7857,
+                "impurity": 0.02249999999969532,
+                "trueNode": {
+                  "leafValue": 30.7,
+                  "impurity": 0.0
+                },
+                "falseNode": {
+                  "leafValue": 31.000000000000004,
+                  "impurity": -1.0
+                }
+              }
+            }
+          },
+          "falseNode": {
+            "feature": "4",
+            "type": "Continuous",
+            "ruleCategorical": [],
+            "ruleRegression": 0.614,
+            "impurity": 14.337599999999838,
+            "trueNode": {
+              "feature": "8",
+              "type": "Categorical",
+              "ruleCategorical": [
+                7.0,
+                4.0,
+                6.0,
+                8.0
+              ],
+              "ruleRegression": -1.7976931348623157E+308,
+              "impurity": 7.260987654320767,
+              "trueNode": {
+                "feature": "12",
+                "type": "Continuous",
+                "ruleCategorical": [],
+                "ruleRegression": 10.16,
+                "impurity": 2.0420408163267894,
+                "trueNode": {
+                  "feature": "9",
+                  "type": "Continuous",
+                  "ruleCategorical": [],
+                  "ruleRegression": 307.0,
+                  "impurity": 1.3760000000002037,
+                  "trueNode": {
+                    "feature": "7",
+                    "type": "Continuous",
+                    "ruleCategorical": [],
+                    "ruleRegression": 3.6023,
+                    "impurity": 0.30888888888891114,
+                    "trueNode": {
+                      "leafValue": 23.8,
+                      "impurity": 0.0
+                    },
+                    "falseNode": {
+                      "feature": "0",
+                      "type": "Continuous",
+                      "ruleCategorical": [],
+                      "ruleRegression": 0.04297,
+                      "impurity": 0.022499999999922693,
+                      "trueNode": {
+                        "leafValue": 24.8,
+                        "impurity": 0.0
+                      },
+                      "falseNode": {
+                        "leafValue": 25.100000000000005,
+                        "impurity": -1.0
+                      }
+                    }
+                  },
+                  "falseNode": {
+                    "feature": "0",
+                    "type": "Continuous",
+                    "ruleCategorical": [],
+                    "ruleRegression": 0.03537,
+                    "impurity": 0.1600000000001387,
+                    "trueNode": {
+                      "leafValue": 22.0,
+                      "impurity": 0.0
+                    },
+                    "falseNode": {
+                      "leafValue": 22.799999999999997,
+                      "impurity": -1.0
+                    }
+                  }
+                },
+                "falseNode": {
+                  "feature": "0",
+                  "type": "Continuous",
+                  "ruleCategorical": [],
+                  "ruleRegression": 0.11329000000000002,
+                  "impurity": 0.24999999999971578,
+                  "trueNode": {
+                    "leafValue": 22.0,
+                    "impurity": 0.0
+                  },
+                  "falseNode": {
+                    "leafValue": 21.0,
+                    "impurity": 0.0
+                  }
+                }
+              },
+              "falseNode": {
+                "feature": "0",
+                "type": "Continuous",
+                "ruleCategorical": [],
+                "ruleRegression": 0.14866,
+                "impurity": 1.3224999999994225,
+                "trueNode": {
+                  "leafValue": 27.5,
+                  "impurity": 0.0
+                },
+                "falseNode": {
+                  "leafValue": 29.799999999999997,
+                  "impurity": -1.0
+                }
+              }
+            },
+            "falseNode": {
+              "leafValue": 15.0,
+              "impurity": 0.0
+            }
+          }
+        }
+      }
+    },
+    "falseNode": {
+      "feature": "0",
+      "type": "Continuous",
+      "ruleCategorical": [],
+      "ruleRegression": 5.66637,
+      "impurity": 19.20987909975772,
+      "trueNode": {
+        "feature": "4",
+        "type": "Continuous",
+        "ruleCategorical": [],
+        "ruleRegression": 0.524,
+        "impurity": 11.514912109375075,
+        "trueNode": {
+          "feature": "0",
+          "type": "Continuous",
+          "ruleCategorical": [],
+          "ruleRegression": 0.14455,
+          "impurity": 6.403822222222213,
+          "trueNode": {
+            "feature": "0",
+            "type": "Continuous",
+            "ruleCategorical": [],
+            "ruleRegression": 0.14103,
+            "impurity": 8.59555555555562,
+            "trueNode": {
+              "feature": "0",
+              "type": "Continuous",
+              "ruleCategorical": [],
+              "ruleRegression": 0.09378,
+              "impurity": 0.4900000000000091,
+              "trueNode": {
+                "leafValue": 21.7,
+                "impurity": 0.0
+              },
+              "falseNode": {
+                "leafValue": 20.3,
+                "impurity": 0.0
+              }
+            },
+            "falseNode": {
+              "leafValue": 27.099999999999994,
+              "impurity": -1.0
+            }
+          },
+          "falseNode": {
+            "feature": "2",
+            "type": "Continuous",
+            "ruleCategorical": [],
+            "ruleRegression": 8.56,
+            "impurity": 3.44076388888872,
+            "trueNode": {
+              "feature": "12",
+              "type": "Continuous",
+              "ruleCategorical": [],
+              "ruleRegression": 18.66,
+              "impurity": 1.4742857142856078,
+              "trueNode": {
+                "feature": "1",
+                "type": "Continuous",
+                "ruleCategorical": [],
+                "ruleRegression": 0.0,
+                "impurity": 0.14640000000003967,
+                "trueNode": {
+                  "feature": "0",
+                  "type": "Continuous",
+                  "ruleCategorical": [],
+                  "ruleRegression": 0.1712,
+                  "impurity": 0.00222222222214441,
+                  "trueNode": {
+                    "leafValue": 19.5,
+                    "impurity": 0.0
+                  },
+                  "falseNode": {
+                    "leafValue": 19.4,
+                    "impurity": -1.0
+                  }
+                },
+                "falseNode": {
+                  "feature": "0",
+                  "type": "Continuous",
+                  "ruleCategorical": [],
+                  "ruleRegression": 0.17004,
+                  "impurity": 0.040000000000190994,
+                  "trueNode": {
+                    "leafValue": 18.9,
+                    "impurity": 0.0
+                  },
+                  "falseNode": {
+                    "leafValue": 18.5,
+                    "impurity": 0.0
+                  }
+                }
+              },
+              "falseNode": {
+                "feature": "0",
+                "type": "Continuous",
+                "ruleCategorical": [],
+                "ruleRegression": 0.21124,
+                "impurity": 0.0025000000000545697,
+                "trueNode": {
+                  "leafValue": 16.5,
+                  "impurity": 0.0
+                },
+                "falseNode": {
+                  "leafValue": 16.6,
+                  "impurity": 0.0
+                }
+              }
+            },
+            "falseNode": {
+              "feature": "0",
+              "type": "Continuous",
+              "ruleCategorical": [],
+              "ruleRegression": 0.25199,
+              "impurity": 1.6855999999997948,
+              "trueNode": {
+                "feature": "0",
+                "type": "Continuous",
+                "ruleCategorical": [],
+                "ruleRegression": 0.17446,
+                "impurity": 0.12666666666670304,
+                "trueNode": {
+                  "leafValue": 21.7,
+                  "impurity": 0.0
+                },
+                "falseNode": {
+                  "feature": "0",
+                  "type": "Continuous",
+                  "ruleCategorical": [],
+                  "ruleRegression": 0.21719000000000002,
+                  "impurity": 0.002500000000111413,
+                  "trueNode": {
+                    "leafValue": 22.4,
+                    "impurity": 0.0
+                  },
+                  "falseNode": {
+                    "leafValue": 22.5,
+                    "impurity": -1.0
+                  }
+                }
+              },
+              "falseNode": {
+                "feature": "0",
+                "type": "Continuous",
+                "ruleCategorical": [],
+                "ruleRegression": 0.37578,
+                "impurity": 0.12250000000005912,
+                "trueNode": {
+                  "leafValue": 19.3,
+                  "impurity": 0.0
+                },
+                "falseNode": {
+                  "leafValue": 19.999999999999996,
+                  "impurity": -1.0
+                }
+              }
+            }
+          }
+        },
+        "falseNode": {
+          "feature": "12",
+          "type": "Continuous",
+          "ruleCategorical": [],
+          "ruleRegression": 18.76,
+          "impurity": 9.374802165764034,
+          "trueNode": {
+            "feature": "6",
+            "type": "Continuous",
+            "ruleCategorical": [],
+            "ruleRegression": 82.5,
+            "impurity": 6.69421874999972,
+            "trueNode": {
+              "feature": "4",
+              "type": "Continuous",
+              "ruleCategorical": [],
+              "ruleRegression": 0.547,
+              "impurity": 2.3718749999999886,
+              "trueNode": {
+                "feature": "0",
+                "type": "Continuous",
+                "ruleCategorical": [],
+                "ruleRegression": 0.13058,
+                "impurity": 0.08999999999997499,
+                "trueNode": {
+                  "leafValue": 20.4,
+                  "impurity": 0.0
+                },
+                "falseNode": {
+                  "leafValue": 19.800000000000004,
+                  "impurity": -1.0
+                }
+              },
+              "falseNode": {
+                "feature": "7",
+                "type": "Continuous",
+                "ruleCategorical": [],
+                "ruleRegression": 2.1678,
+                "impurity": 0.0025000000000545697,
+                "trueNode": {
+                  "leafValue": 23.2,
+                  "impurity": 0.0
+                },
+                "falseNode": {
+                  "leafValue": 23.099999999999998,
+                  "impurity": 0.0
+                }
+              }
+            },
+            "falseNode": {
+              "feature": "5",
+              "type": "Continuous",
+              "ruleCategorical": [],
+              "ruleRegression": 5.7010000000000005,
+              "impurity": 4.3453443877551114,
+              "trueNode": {
+                "feature": "6",
+                "type": "Continuous",
+                "ruleCategorical": [],
+                "ruleRegression": 95.0,
+                "impurity": 1.272653061224511,
+                "trueNode": {
+                  "feature": "2",
+                  "type": "Continuous",
+                  "ruleCategorical": [],
+                  "ruleRegression": 19.58,
+                  "impurity": 0.625600000000054,
+                  "trueNode": {
+                    "feature": "0",
+                    "type": "Continuous",
+                    "ruleCategorical": [],
+                    "ruleRegression": 0.84054,
+                    "impurity": 0.14222222222216865,
+                    "trueNode": {
+                      "leafValue": 13.9,
+                      "impurity": 0.0
+                    },
+                    "falseNode": {
+                      "leafValue": 13.100000000000001,
+                      "impurity": -1.0
+                    }
+                  },
+                  "falseNode": {
+                    "feature": "0",
+                    "type": "Continuous",
+                    "ruleCategorical": [],
+                    "ruleRegression": 0.15086,
+                    "impurity": 0.20249999999987267,
+                    "trueNode": {
+                      "leafValue": 15.2,
+                      "impurity": 0.0
+                    },
+                    "falseNode": {
+                      "leafValue": 14.3,
+                      "impurity": -1.0
+                    }
+                  }
+                },
+                "falseNode": {
+                  "feature": "0",
+                  "type": "Continuous",
+                  "ruleCategorical": [],
+                  "ruleRegression": 0.25915,
+                  "impurity": 0.09000000000003183,
+                  "trueNode": {
+                    "leafValue": 16.2,
+                    "impurity": 0.0
+                  },
+                  "falseNode": {
+                    "leafValue": 15.599999999999998,
+                    "impurity": -1.0
+                  }
+                }
+              },
+              "falseNode": {
+                "feature": "5",
+                "type": "Continuous",
+                "ruleCategorical": [],
+                "ruleRegression": 6.431,
+                "impurity": 3.0837188208615336,
+                "trueNode": {
+                  "feature": "8",
+                  "type": "Categorical",
+                  "ruleCategorical": [
+                    4.0,
+                    5.0
+                  ],
+                  "ruleRegression": -1.7976931348623157E+308,
+                  "impurity": 2.1728395061728003,
+                  "trueNode": {
+                    "feature": "6",
+                    "type": "Continuous",
+                    "ruleCategorical": [],
+                    "ruleRegression": 91.7,
+                    "impurity": 1.7550617283949477,
+                    "trueNode": {
+                      "feature": "0",
+                      "type": "Continuous",
+                      "ruleCategorical": [],
+                      "ruleRegression": 1.2324700000000002,
+                      "impurity": 0.040000000000020464,
+                      "trueNode": {
+                        "leafValue": 15.2,
+                        "impurity": 0.0
+                      },
+                      "falseNode": {
+                        "leafValue": 15.599999999999998,
+                        "impurity": -1.0
+                      }
+                    },
+                    "falseNode": {
+                      "feature": "7",
+                      "type": "Continuous",
+                      "ruleCategorical": [],
+                      "ruleRegression": 2.1107,
+                      "impurity": 1.1555102040816305,
+                      "trueNode": {
+                        "feature": "0",
+                        "type": "Continuous",
+                        "ruleCategorical": [],
+                        "ruleRegression": 1.41385,
+                        "impurity": 0.5591666666667834,
+                        "trueNode": {
+                          "feature": "5",
+                          "type": "Continuous",
+                          "ruleCategorical": [],
+                          "ruleRegression": 6.129,
+                          "impurity": 0.16639999999993052,
+                          "trueNode": {
+                            "feature": "0",
+                            "type": "Continuous",
+                            "ruleCategorical": [],
+                            "ruleRegression": 0.32264,
+                            "impurity": 0.040000000000020464,
+                            "trueNode": {
+                              "leafValue": 17.4,
+                              "impurity": 0.0
+                            },
+                            "falseNode": {
+                              "leafValue": 17.0,
+                              "impurity": -1.0
+                            }
+                          },
+                          "falseNode": {
+                            "feature": "5",
+                            "type": "Continuous",
+                            "ruleCategorical": [],
+                            "ruleRegression": 6.151,
+                            "impurity": 0.015555555555427722,
+                            "trueNode": {
+                              "leafValue": 17.8,
+                              "impurity": 0.0
+                            },
+                            "falseNode": {
+                              "feature": "0",
+                              "type": "Continuous",
+                              "ruleCategorical": [],
+                              "ruleRegression": 0.32543,
+                              "impurity": 0.002499999999827196,
+                              "trueNode": {
+                                "leafValue": 18.0,
+                                "impurity": 0.0
+                              },
+                              "falseNode": {
+                                "leafValue": 18.1,
+                                "impurity": 5.6843418860808015E-14
+                              }
+                            }
+                          }
+                        },
+                        "falseNode": {
+                          "leafValue": 19.400000000000006,
+                          "impurity": -1.0
+                        }
+                      },
+                      "falseNode": {
+                        "leafValue": 15.599999999999994,
+                        "impurity": -1.0
+                      }
+                    }
+                  },
+                  "falseNode": {
+                    "feature": "5",
+                    "type": "Continuous",
+                    "ruleCategorical": [],
+                    "ruleRegression": 6.218999999999999,
+                    "impurity": 1.3106172839506043,
+                    "trueNode": {
+                      "feature": "0",
+                      "type": "Continuous",
+                      "ruleCategorical": [],
+                      "ruleRegression": 0.09299,
+                      "impurity": 0.5074999999999363,
+                      "trueNode": {
+                        "leafValue": 20.5,
+                        "impurity": 0.0
+                      },
+                      "falseNode": {
+                        "feature": "7",
+                        "type": "Continuous",
+                        "ruleCategorical": [],
+                        "ruleRegression": 2.8715,
+                        "impurity": 0.2367346938774842,
+                        "trueNode": {
+                          "feature": "12",
+                          "type": "Continuous",
+                          "ruleCategorical": [],
+                          "ruleRegression": 16.59,
+                          "impurity": 0.05888888888898691,
+                          "trueNode": {
+                            "feature": "0",
+                            "type": "Continuous",
+                            "ruleCategorical": [],
+                            "ruleRegression": 0.12329000000000001,
+                            "impurity": 0.04666666666670002,
+                            "trueNode": {
+                              "leafValue": 18.8,
+                              "impurity": 0.0
+                            },
+                            "falseNode": {
+                              "feature": "0",
+                              "type": "Continuous",
+                              "ruleCategorical": [],
+                              "ruleRegression": 0.17134000000000002,
+                              "impurity": 0.0024999999999977263,
+                              "trueNode": {
+                                "leafValue": 18.3,
+                                "impurity": 0.0
+                              },
+                              "falseNode": {
+                                "leafValue": 18.400000000000002,
+                                "impurity": -5.6843418860808015E-14
+                              }
+                            }
+                          },
+                          "falseNode": {
+                            "feature": "0",
+                            "type": "Continuous",
+                            "ruleCategorical": [],
+                            "ruleRegression": 0.22211999999999998,
+                            "impurity": 0.01555555555569299,
+                            "trueNode": {
+                              "feature": "0",
+                              "type": "Continuous",
+                              "ruleCategorical": [],
+                              "ruleRegression": 0.09849,
+                              "impurity": 0.0025000000000545697,
+                              "trueNode": {
+                                "leafValue": 18.8,
+                                "impurity": 0.0
+                              },
+                              "falseNode": {
+                                "leafValue": 18.7,
+                                "impurity": 5.6843418860808015E-14
+                              }
+                            },
+                            "falseNode": {
+                              "leafValue": 19.0,
+                              "impurity": 0.0
+                            }
+                          }
+                        },
+                        "falseNode": {
+                          "leafValue": 19.900000000000006,
+                          "impurity": -1.0
+                        }
+                      }
+                    },
+                    "falseNode": {
+                      "leafValue": 16.099999999999994,
+                      "impurity": -1.0
+                    }
+                  }
+                },
+                "falseNode": {
+                  "feature": "7",
+                  "type": "Continuous",
+                  "ruleCategorical": [],
+                  "ruleRegression": 2.3053,
+                  "impurity": 1.395555555555499,
+                  "trueNode": {
+                    "leafValue": 16.7,
+                    "impurity": 0.0
+                  },
+                  "falseNode": {
+                    "feature": "0",
+                    "type": "Continuous",
+                    "ruleCategorical": [],
+                    "ruleRegression": 4.75237,
+                    "impurity": 0.009999999999990905,
+                    "trueNode": {
+                      "leafValue": 14.1,
+                      "impurity": 0.0
+                    },
+                    "falseNode": {
+                      "leafValue": 14.299999999999999,
+                      "impurity": -1.0
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "falseNode": {
+            "feature": "0",
+            "type": "Continuous",
+            "ruleCategorical": [],
+            "ruleRegression": 0.18337,
+            "impurity": 8.03404844290641,
+            "trueNode": {
+              "leafValue": 7.0,
+              "impurity": 0.0
+            },
+            "falseNode": {
+              "feature": "6",
+              "type": "Continuous",
+              "ruleCategorical": [],
+              "ruleRegression": 72.9,
+              "impurity": 5.05984374999997,
+              "trueNode": {
+                "leafValue": 19.7,
+                "impurity": 0.0
+              },
+              "falseNode": {
+                "feature": "11",
+                "type": "Continuous",
+                "ruleCategorical": [],
+                "ruleRegression": 248.31,
+                "impurity": 3.6104888888889035,
+                "trueNode": {
+                  "feature": "0",
+                  "type": "Continuous",
+                  "ruleCategorical": [],
+                  "ruleRegression": 0.6718,
+                  "impurity": 0.4149999999999636,
+                  "trueNode": {
+                    "leafValue": 11.8,
+                    "impurity": 0.0
+                  },
+                  "falseNode": {
+                    "feature": "0",
+                    "type": "Continuous",
+                    "ruleCategorical": [],
+                    "ruleRegression": 1.6128200000000001,
+                    "impurity": 0.10888888888882775,
+                    "trueNode": {
+                      "feature": "0",
+                      "type": "Continuous",
+                      "ruleCategorical": [],
+                      "ruleRegression": 1.38799,
+                      "impurity": 0.022500000000007958,
+                      "trueNode": {
+                        "leafValue": 13.2,
+                        "impurity": 0.0
+                      },
+                      "falseNode": {
+                        "leafValue": 13.5,
+                        "impurity": -1.0
+                      }
+                    },
+                    "falseNode": {
+                      "leafValue": 12.7,
+                      "impurity": -1.0
+                    }
+                  }
+                },
+                "falseNode": {
+                  "feature": "11",
+                  "type": "Continuous",
+                  "ruleCategorical": [],
+                  "ruleRegression": 359.29,
+                  "impurity": 3.576033057851129,
+                  "trueNode": {
+                    "feature": "6",
+                    "type": "Continuous",
+                    "ruleCategorical": [],
+                    "ruleRegression": 94.5,
+                    "impurity": 2.3249999999999886,
+                    "trueNode": {
+                      "feature": "0",
+                      "type": "Continuous",
+                      "ruleCategorical": [],
+                      "ruleRegression": 2.3309900000000003,
+                      "impurity": 0.4224999999999568,
+                      "trueNode": {
+                        "leafValue": 17.8,
+                        "impurity": 0.0
+                      },
+                      "falseNode": {
+                        "leafValue": 19.100000000000005,
+                        "impurity": -1.0
+                      }
+                    },
+                    "falseNode": {
+                      "feature": "2",
+                      "type": "Continuous",
+                      "ruleCategorical": [],
+                      "ruleRegression": 19.58,
+                      "impurity": 0.022500000000121645,
+                      "trueNode": {
+                        "leafValue": 15.4,
+                        "impurity": 0.0
+                      },
+                      "falseNode": {
+                        "leafValue": 15.700000000000001,
+                        "impurity": -1.0
+                      }
+                    }
+                  },
+                  "falseNode": {
+                    "feature": "11",
+                    "type": "Continuous",
+                    "ruleCategorical": [],
+                    "ruleRegression": 360.17,
+                    "impurity": 0.39918367346938666,
+                    "trueNode": {
+                      "leafValue": 12.7,
+                      "impurity": 0.0
+                    },
+                    "falseNode": {
+                      "feature": "5",
+                      "type": "Continuous",
+                      "ruleCategorical": [],
+                      "ruleRegression": 4.926,
+                      "impurity": 0.259999999999953,
+                      "trueNode": {
+                        "leafValue": 14.6,
+                        "impurity": 0.0
+                      },
+                      "falseNode": {
+                        "feature": "12",
+                        "type": "Continuous",
+                        "ruleCategorical": [],
+                        "ruleRegression": 19.88,
+                        "impurity": 0.19439999999997326,
+                        "trueNode": {
+                          "leafValue": 14.5,
+                          "impurity": 0.0
+                        },
+                        "falseNode": {
+                          "feature": "6",
+                          "type": "Continuous",
+                          "ruleCategorical": [],
+                          "ruleRegression": 93.6,
+                          "impurity": 0.07187499999994884,
+                          "trueNode": {
+                            "leafValue": 14.0,
+                            "impurity": 0.0
+                          },
+                          "falseNode": {
+                            "feature": "7",
+                            "type": "Continuous",
+                            "ruleCategorical": [],
+                            "ruleRegression": 1.6686,
+                            "impurity": 0.015555555555541408,
+                            "trueNode": {
+                              "feature": "0",
+                              "type": "Continuous",
+                              "ruleCategorical": [],
+                              "ruleRegression": 0.2498,
+                              "impurity": 0.0024999999999977263,
+                              "trueNode": {
+                                "leafValue": 13.3,
+                                "impurity": 0.0
+                              },
+                              "falseNode": {
+                                "leafValue": 13.400000000000002,
+                                "impurity": -2.8421709430404007E-14
+                              }
+                            },
+                            "falseNode": {
+                              "leafValue": 13.600000000000001,
+                              "impurity": 0.0
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "falseNode": {
+        "feature": "12",
+        "type": "Continuous",
+        "ruleCategorical": [],
+        "ruleRegression": 19.78,
+        "impurity": 14.951700680271887,
+        "trueNode": {
+          "feature": "12",
+          "type": "Continuous",
+          "ruleCategorical": [],
+          "ruleRegression": 19.69,
+          "impurity": 11.75332840236685,
+          "trueNode": {
+            "feature": "7",
+            "type": "Continuous",
+            "ruleCategorical": [],
+            "ruleRegression": 2.0635,
+            "impurity": 5.42,
+            "trueNode": {
+              "feature": "0",
+              "type": "Continuous",
+              "ruleCategorical": [],
+              "ruleRegression": 11.0874,
+              "impurity": 4.332899408284027,
+              "trueNode": {
+                "feature": "4",
+                "type": "Continuous",
+                "ruleCategorical": [],
+                "ruleRegression": 0.693,
+                "impurity": 2.1143209876543603,
+                "trueNode": {
+                  "feature": "7",
+                  "type": "Continuous",
+                  "ruleCategorical": [],
+                  "ruleRegression": 2.0527,
+                  "impurity": 0.9536000000000058,
+                  "trueNode": {
+                    "feature": "7",
+                    "type": "Continuous",
+                    "ruleCategorical": [],
+                    "ruleRegression": 1.7257,
+                    "impurity": 0.5618749999999864,
+                    "trueNode": {
+                      "feature": "0",
+                      "type": "Continuous",
+                      "ruleCategorical": [],
+                      "ruleRegression": 5.87205,
+                      "impurity": 0.08999999999997499,
+                      "trueNode": {
+                        "leafValue": 12.5,
+                        "impurity": 0.0
+                      },
+                      "falseNode": {
+                        "leafValue": 13.100000000000001,
+                        "impurity": -1.0
+                      }
+                    },
+                    "falseNode": {
+                      "feature": "0",
+                      "type": "Continuous",
+                      "ruleCategorical": [],
+                      "ruleRegression": 8.49213,
+                      "impurity": 0.12249999999997385,
+                      "trueNode": {
+                        "leafValue": 14.5,
+                        "impurity": 0.0
+                      },
+                      "falseNode": {
+                        "leafValue": 13.8,
+                        "impurity": -1.0
+                      }
+                    }
+                  },
+                  "falseNode": {
+                    "leafValue": 11.700000000000003,
+                    "impurity": -1.0
+                  }
+                },
+                "falseNode": {
+                  "feature": "7",
+                  "type": "Continuous",
+                  "ruleCategorical": [],
+                  "ruleRegression": 1.8589,
+                  "impurity": 0.8024999999999523,
+                  "trueNode": {
+                    "leafValue": 16.7,
+                    "impurity": 0.0
+                  },
+                  "falseNode": {
+                    "feature": "11",
+                    "type": "Continuous",
+                    "ruleCategorical": [],
+                    "ruleRegression": 319.98,
+                    "impurity": 0.2599999999999909,
+                    "trueNode": {
+                      "leafValue": 14.2,
+                      "impurity": 0.0
+                    },
+                    "falseNode": {
+                      "feature": "0",
+                      "type": "Continuous",
+                      "ruleCategorical": [],
+                      "ruleRegression": 6.96215,
+                      "impurity": 0.022499999999922693,
+                      "trueNode": {
+                        "leafValue": 15.1,
+                        "impurity": 0.0
+                      },
+                      "falseNode": {
+                        "leafValue": 15.4,
+                        "impurity": 0.0
+                      }
+                    }
+                  }
+                }
+              },
+              "falseNode": {
+                "feature": "6",
+                "type": "Continuous",
+                "ruleCategorical": [],
+                "ruleRegression": 93.3,
+                "impurity": 1.3868750000000318,
+                "trueNode": {
+                  "feature": "4",
+                  "type": "Continuous",
+                  "ruleCategorical": [],
+                  "ruleRegression": 0.6709999999999999,
+                  "impurity": 0.1155555555555452,
+                  "trueNode": {
+                    "feature": "0",
+                    "type": "Continuous",
+                    "ruleCategorical": [],
+                    "ruleRegression": 12.2472,
+                    "impurity": 0.009999999999976694,
+                    "trueNode": {
+                      "leafValue": 10.2,
+                      "impurity": 0.0
+                    },
+                    "falseNode": {
+                      "leafValue": 10.400000000000002,
+                      "impurity": -1.0
+                    }
+                  },
+                  "falseNode": {
+                    "leafValue": 9.600000000000001,
+                    "impurity": 0.0
+                  }
+                },
+                "falseNode": {
+                  "leafValue": 12.700000000000003,
+                  "impurity": -1.0
+                }
+              }
+            },
+            "falseNode": {
+              "feature": "11",
+              "type": "Continuous",
+              "ruleCategorical": [],
+              "ruleRegression": 318.01,
+              "impurity": 3.711875000000115,
+              "trueNode": {
+                "feature": "6",
+                "type": "Continuous",
+                "ruleCategorical": [],
+                "ruleRegression": 96.4,
+                "impurity": 0.5685714285714312,
+                "trueNode": {
+                  "feature": "11",
+                  "type": "Continuous",
+                  "ruleCategorical": [],
+                  "ruleRegression": 3.5,
+                  "impurity": 0.42805555555552627,
+                  "trueNode": {
+                    "feature": "5",
+                    "type": "Continuous",
+                    "ruleCategorical": [],
+                    "ruleRegression": 5.936,
+                    "impurity": 0.002500000000026148,
+                    "trueNode": {
+                      "leafValue": 13.5,
+                      "impurity": 0.0
+                    },
+                    "falseNode": {
+                      "leafValue": 13.399999999999999,
+                      "impurity": -1.0
+                    }
+                  },
+                  "falseNode": {
+                    "feature": "0",
+                    "type": "Continuous",
+                    "ruleCategorical": [],
+                    "ruleRegression": 9.513630000000001,
+                    "impurity": 0.12000000000000455,
+                    "trueNode": {
+                      "leafValue": 14.9,
+                      "impurity": 0.0
+                    },
+                    "falseNode": {
+                      "leafValue": 14.100000000000001,
+                      "impurity": -1.0
+                    }
+                  }
+                },
+                "falseNode": {
+                  "leafValue": 13.0,
+                  "impurity": 0.0
+                }
+              },
+              "falseNode": {
+                "feature": "11",
+                "type": "Continuous",
+                "ruleCategorical": [],
+                "ruleRegression": 377.73,
+                "impurity": 2.21359999999986,
+                "trueNode": {
+                  "feature": "0",
+                  "type": "Continuous",
+                  "ruleCategorical": [],
+                  "ruleRegression": 8.98296,
+                  "impurity": 0.37555555555559295,
+                  "trueNode": {
+                    "leafValue": 17.8,
+                    "impurity": 0.0
+                  },
+                  "falseNode": {
+                    "leafValue": 19.1,
+                    "impurity": 0.0
+                  }
+                },
+                "falseNode": {
+                  "feature": "0",
+                  "type": "Continuous",
+                  "ruleCategorical": [],
+                  "ruleRegression": 9.72418,
+                  "impurity": 1.5624999999999716,
+                  "trueNode": {
+                    "leafValue": 17.1,
+                    "impurity": 0.0
+                  },
+                  "falseNode": {
+                    "leafValue": 14.600000000000001,
+                    "impurity": -1.0
+                  }
+                }
+              }
+            }
+          },
+          "falseNode": {
+            "leafValue": 27.5,
+            "impurity": 0.0
+          }
+        },
+        "falseNode": {
+          "feature": "4",
+          "type": "Continuous",
+          "ruleCategorical": [],
+          "ruleRegression": 0.6709999999999999,
+          "impurity": 10.3231701972245,
+          "trueNode": {
+            "feature": "4",
+            "type": "Continuous",
+            "ruleCategorical": [],
+            "ruleRegression": 0.597,
+            "impurity": 4.54673469387756,
+            "trueNode": {
+              "feature": "0",
+              "type": "Continuous",
+              "ruleCategorical": [],
+              "ruleRegression": 6.39312,
+              "impurity": 3.0768750000001432,
+              "trueNode": {
+                "leafValue": 13.3,
+                "impurity": 0.0
+              },
+              "falseNode": {
+                "feature": "12",
+                "type": "Continuous",
+                "ruleCategorical": [],
+                "ruleRegression": 20.08,
+                "impurity": 0.428888888888802,
+                "trueNode": {
+                  "leafValue": 16.3,
+                  "impurity": 0.0
+                },
+                "falseNode": {
+                  "feature": "5",
+                  "type": "Continuous",
+                  "ruleCategorical": [],
+                  "ruleRegression": 4.628,
+                  "impurity": 0.12250000000011596,
+                  "trueNode": {
+                    "leafValue": 17.9,
+                    "impurity": 0.0
+                  },
+                  "falseNode": {
+                    "leafValue": 17.199999999999996,
+                    "impurity": -1.0
+                  }
+                }
+              }
+            },
+            "falseNode": {
+              "feature": "12",
+              "type": "Continuous",
+              "ruleCategorical": [],
+              "ruleRegression": 21.78,
+              "impurity": 1.5440999999999576,
+              "trueNode": {
+                "feature": "0",
+                "type": "Continuous",
+                "ruleCategorical": [],
+                "ruleRegression": 9.82349,
+                "impurity": 1.7622222222221922,
+                "trueNode": {
+                  "leafValue": 13.3,
+                  "impurity": 0.0
+                },
+                "falseNode": {
+                  "feature": "5",
+                  "type": "Continuous",
+                  "ruleCategorical": [],
+                  "ruleRegression": 6.223,
+                  "impurity": 0.12249999999994543,
+                  "trueNode": {
+                    "leafValue": 10.2,
+                    "impurity": 0.0
+                  },
+                  "falseNode": {
+                    "leafValue": 10.900000000000002,
+                    "impurity": -1.0
+                  }
+                }
+              },
+              "falseNode": {
+                "feature": "4",
+                "type": "Continuous",
+                "ruleCategorical": [],
+                "ruleRegression": 0.659,
+                "impurity": 0.6220408163265867,
+                "trueNode": {
+                  "feature": "0",
+                  "type": "Continuous",
+                  "ruleCategorical": [],
+                  "ruleRegression": 7.05042,
+                  "impurity": 0.46888888888891717,
+                  "trueNode": {
+                    "leafValue": 13.4,
+                    "impurity": 0.0
+                  },
+                  "falseNode": {
+                    "feature": "5",
+                    "type": "Continuous",
+                    "ruleCategorical": [],
+                    "ruleRegression": 4.138,
+                    "impurity": 0.002500000000026148,
+                    "trueNode": {
+                      "leafValue": 11.9,
+                      "impurity": 0.0
+                    },
+                    "falseNode": {
+                      "leafValue": 11.999999999999998,
+                      "impurity": -1.0
+                    }
+                  }
+                },
+                "falseNode": {
+                  "feature": "0",
+                  "type": "Continuous",
+                  "ruleCategorical": [],
+                  "ruleRegression": 18.4982,
+                  "impurity": 0.10249999999996362,
+                  "trueNode": {
+                    "feature": "6",
+                    "type": "Continuous",
+                    "ruleCategorical": [],
+                    "ruleRegression": 93.3,
+                    "impurity": 0.0022222222222202013,
+                    "trueNode": {
+                      "leafValue": 13.9,
+                      "impurity": 0.0
+                    },
+                    "falseNode": {
+                      "leafValue": 13.8,
+                      "impurity": -1.0
+                    }
+                  },
+                  "falseNode": {
+                    "leafValue": 13.100000000000001,
+                    "impurity": -1.0
+                  }
+                }
+              }
+            }
+          },
+          "falseNode": {
+            "feature": "0",
+            "type": "Continuous",
+            "ruleCategorical": [],
+            "ruleRegression": 9.59571,
+            "impurity": 4.949111531190965,
+            "trueNode": {
+              "feature": "0",
+              "type": "Continuous",
+              "ruleCategorical": [],
+              "ruleRegression": 7.67202,
+              "impurity": 2.4480555555555648,
+              "trueNode": {
+                "leafValue": 8.5,
+                "impurity": 0.0
+              },
+              "falseNode": {
+                "feature": "11",
+                "type": "Continuous",
+                "ruleCategorical": [],
+                "ruleRegression": 60.72,
+                "impurity": 1.3360000000000127,
+                "trueNode": {
+                  "leafValue": 9.5,
+                  "impurity": 0.0
+                },
+                "falseNode": {
+                  "feature": "6",
+                  "type": "Continuous",
+                  "ruleCategorical": [],
+                  "ruleRegression": 93.9,
+                  "impurity": 0.2918749999999477,
+                  "trueNode": {
+                    "leafValue": 12.8,
+                    "impurity": 0.0
+                  },
+                  "falseNode": {
+                    "feature": "0",
+                    "type": "Continuous",
+                    "ruleCategorical": [],
+                    "ruleRegression": 7.9924800000000005,
+                    "impurity": 0.18666666666662954,
+                    "trueNode": {
+                      "leafValue": 12.3,
+                      "impurity": 0.0
+                    },
+                    "falseNode": {
+                      "feature": "4",
+                      "type": "Continuous",
+                      "ruleCategorical": [],
+                      "ruleRegression": 0.693,
+                      "impurity": 0.15999999999996817,
+                      "trueNode": {
+                        "leafValue": 12.1,
+                        "impurity": 0.0
+                      },
+                      "falseNode": {
+                        "leafValue": 11.299999999999999,
+                        "impurity": -1.0
+                      }
+                    }
+                  }
+                }
+              }
+            },
+            "falseNode": {
+              "feature": "7",
+              "type": "Continuous",
+              "ruleCategorical": [],
+              "ruleRegression": 1.5888,
+              "impurity": 3.3328027681660815,
+              "trueNode": {
+                "feature": "5",
+                "type": "Continuous",
+                "ruleCategorical": [],
+                "ruleRegression": 4.652,
+                "impurity": 2.816874999999996,
+                "trueNode": {
+                  "leafValue": 10.5,
+                  "impurity": 0.0
+                },
+                "falseNode": {
+                  "feature": "0",
+                  "type": "Continuous",
+                  "ruleCategorical": [],
+                  "ruleRegression": 22.5971,
+                  "impurity": 0.9538775510204199,
+                  "trueNode": {
+                    "feature": "0",
+                    "type": "Continuous",
+                    "ruleCategorical": [],
+                    "ruleRegression": 9.91655,
+                    "impurity": 0.1818749999999909,
+                    "trueNode": {
+                      "leafValue": 6.3,
+                      "impurity": 0.0
+                    },
+                    "falseNode": {
+                      "feature": "0",
+                      "type": "Continuous",
+                      "ruleCategorical": [],
+                      "ruleRegression": 16.8118,
+                      "impurity": 0.008888888888890278,
+                      "trueNode": {
+                        "leafValue": 7.2,
+                        "impurity": 0.0
+                      },
+                      "falseNode": {
+                        "leafValue": 7.4,
+                        "impurity": -1.0
+                      }
+                    }
+                  },
+                  "falseNode": {
+                    "feature": "0",
+                    "type": "Continuous",
+                    "ruleCategorical": [],
+                    "ruleRegression": 25.0461,
+                    "impurity": 0.0799999999999983,
+                    "trueNode": {
+                      "leafValue": 5.6,
+                      "impurity": 0.0
+                    },
+                    "falseNode": {
+                      "leafValue": 5.0,
+                      "impurity": 0.0
+                    }
+                  }
+                }
+              },
+              "falseNode": {
+                "feature": "5",
+                "type": "Continuous",
+                "ruleCategorical": [],
+                "ruleRegression": 5.854,
+                "impurity": 1.320000000000012,
+                "trueNode": {
+                  "feature": "0",
+                  "type": "Continuous",
+                  "ruleCategorical": [],
+                  "ruleRegression": 25.9406,
+                  "impurity": 0.8225000000000051,
+                  "trueNode": {
+                    "feature": "0",
+                    "type": "Continuous",
+                    "ruleCategorical": [],
+                    "ruleRegression": 12.8023,
+                    "impurity": 0.028888888888862613,
+                    "trueNode": {
+                      "leafValue": 10.8,
+                      "impurity": 0.0
+                    },
+                    "falseNode": {
+                      "feature": "0",
+                      "type": "Continuous",
+                      "ruleCategorical": [],
+                      "ruleRegression": 22.0511,
+                      "impurity": 0.0024999999999693046,
+                      "trueNode": {
+                        "leafValue": 10.5,
+                        "impurity": 0.0
+                      },
+                      "falseNode": {
+                        "leafValue": 10.399999999999999,
+                        "impurity": -1.0
+                      }
+                    }
+                  },
+                  "falseNode": {
+                    "leafValue": 8.5,
+                    "impurity": 0.0
+                  }
+                },
+                "falseNode": {
+                  "feature": "12",
+                  "type": "Continuous",
+                  "ruleCategorical": [],
+                  "ruleRegression": 26.45,
+                  "impurity": 0.32559999999997447,
+                  "trueNode": {
+                    "feature": "6",
+                    "type": "Continuous",
+                    "ruleCategorical": [],
+                    "ruleRegression": 95.4,
+                    "impurity": 0.04249999999998977,
+                    "trueNode": {
+                      "feature": "0",
+                      "type": "Continuous",
+                      "ruleCategorical": [],
+                      "ruleRegression": 11.8123,
+                      "impurity": 0.0024999999999835154,
+                      "trueNode": {
+                        "leafValue": 8.4,
+                        "impurity": 0.0
+                      },
+                      "falseNode": {
+                        "leafValue": 8.300000000000002,
+                        "impurity": -1.0
+                      }
+                    },
+                    "falseNode": {
+                      "feature": "0",
+                      "type": "Continuous",
+                      "ruleCategorical": [],
+                      "ruleRegression": 15.1772,
+                      "impurity": 0.002500000000011937,
+                      "trueNode": {
+                        "leafValue": 8.7,
+                        "impurity": 0.0
+                      },
+                      "falseNode": {
+                        "leafValue": 8.8,
+                        "impurity": 0.0
+                      }
+                    }
+                  },
+                  "falseNode": {
+                    "leafValue": 7.200000000000003,
+                    "impurity": -1.0
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
